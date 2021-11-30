@@ -18,23 +18,13 @@ unitName "gates"
 ]
 instances [
 (Instance
-name "U_0"
-duLibraryName "sequential"
-duName "counter"
+name "U_3"
+duLibraryName "Cursor"
+duName "PWM_Generator"
 elements [
-(GiElement
-name "delay"
-type "time"
-value "gateDelay"
-)
-(GiElement
-name "bitNb"
-type "positive"
-value "8"
-)
 ]
 mwi 0
-uid 347,0
+uid 704,0
 )
 ]
 libraryRefs [
@@ -94,19 +84,19 @@ value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driv
 )
 (vvPair
 variable "date"
-value "29.11.2021"
+value "30.11.2021"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "29"
+value "30"
 )
 (vvPair
 variable "entity_name"
@@ -134,7 +124,7 @@ value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "29.11.2021"
+value "30.11.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -146,7 +136,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:14:57"
+value "09:49:18"
 )
 (vvPair
 variable "group"
@@ -218,7 +208,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "16:14:57"
+value "09:49:18"
 )
 (vvPair
 variable "unit"
@@ -966,35 +956,36 @@ st "reset    : std_ulogic
 )
 )
 *24 (SaComponent
-uid 347,0
+uid 704,0
 optionalChildren [
 *25 (CptPort
-uid 335,0
+uid 684,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 336,0
+uid 685,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "28250,16625,29000,17375"
+xt "57250,42625,58000,43375"
 )
 tg (CPTG
-uid 337,0
+uid 686,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 338,0
+uid 687,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "30000,16300,33800,17700"
+xt "59000,42300,62800,43700"
 st "clock"
-blo "30000,17500"
+blo "59000,43500"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "clock"
 t "std_ulogic"
@@ -1004,173 +995,238 @@ suid 1,0
 )
 )
 *26 (CptPort
-uid 339,0
+uid 688,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 340,0
+uid 689,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "45000,16625,45750,17375"
+xt "66000,40625,66750,41375"
 )
 tg (CPTG
-uid 341,0
+uid 690,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 342,0
+uid 691,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "37400,16300,44000,17700"
-st "countOut"
+xt "58900,40300,65000,41700"
+st "pwmOut"
 ju 2
-blo "44000,17500"
+blo "65000,41500"
 )
 )
 thePort (LogicalPort
+lang 11
 m 1
 decl (Decl
-n "countOut"
-t "unsigned"
-b "(bitNb-1 DOWNTO 0)"
-o 2
+n "pwmOut"
+t "std_ulogic"
+o 5
 suid 2,0
 )
 )
 )
 *27 (CptPort
-uid 343,0
+uid 692,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 344,0
+uid 693,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "28250,18625,29000,19375"
+xt "57250,44625,58000,45375"
 )
 tg (CPTG
-uid 345,0
+uid 694,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 346,0
+uid 695,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "30000,18300,34100,19700"
+xt "60000,44300,64100,45700"
 st "reset"
-blo "30000,19500"
+blo "60000,45500"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 3
+o 2
 suid 3,0
+)
+)
+)
+*28 (CptPort
+uid 696,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 697,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "57250,38625,58000,39375"
+)
+tg (CPTG
+uid 698,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 699,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "59000,38300,62800,39700"
+st "start"
+blo "59000,39500"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "start"
+t "std_ulogic"
+o 3
+suid 4,0
+)
+)
+)
+*29 (CptPort
+uid 700,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 701,0
+ro 180
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "61625,35250,62375,36000"
+)
+tg (CPTG
+uid 702,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 703,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "59000,36000,65000,37400"
+st "upDown"
+ju 2
+blo "65000,37200"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "upDown"
+t "std_ulogic"
+o 4
+suid 5,0
 )
 )
 )
 ]
 shape (Rectangle
-uid 348,0
+uid 705,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
-lineColor "0,32768,0"
+lineColor "0,32896,0"
 lineWidth 2
 )
-xt "29000,13000,45000,21000"
+xt "58000,36000,66000,46000"
 )
-oxt "24000,14000,40000,22000"
+oxt "19000,5000,27000,15000"
 ttg (MlTextGroup
-uid 349,0
+uid 706,0
 ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 textVec [
-*28 (Text
-uid 350,0
+*30 (Text
+uid 707,0
 va (VaSet
+font "Verdana,9,1"
 )
-xt "29300,21400,35900,22600"
-st "sequential"
-blo "29300,22400"
+xt "58300,46800,62000,48000"
+st "Cursor"
+blo "58300,47800"
 tm "BdLibraryNameMgr"
 )
-*29 (Text
-uid 351,0
+*31 (Text
+uid 708,0
 va (VaSet
+font "Verdana,9,1"
 )
-xt "29300,22600,33800,23800"
-st "counter"
-blo "29300,23600"
+xt "58300,48000,67700,49200"
+st "PWM_Generator"
+blo "58300,49000"
 tm "CptNameMgr"
 )
-*30 (Text
-uid 352,0
+*32 (Text
+uid 709,0
 va (VaSet
+font "Verdana,9,1"
 )
-xt "29300,23800,32100,25000"
-st "U_0"
-blo "29300,24800"
+xt "58300,49200,60800,50400"
+st "U_3"
+blo "58300,50200"
 tm "InstanceNameMgr"
 )
 ]
 )
 ga (GenericAssociation
-uid 353,0
+uid 710,0
 ps "EdgeToEdgeStrategy"
 matrix (Matrix
-uid 354,0
+uid 711,0
 text (MLText
-uid 355,0
+uid 712,0
 va (VaSet
+font "Courier New,8,0"
 )
-xt "29000,25400,46800,27800"
-st "delay = gateDelay    ( time     )  
-bitNb = 8            ( positive )  
-"
+xt "32500,37000,32500,37000"
 )
 header ""
 )
 elements [
-(GiElement
-name "delay"
-type "time"
-value "gateDelay"
-)
-(GiElement
-name "bitNb"
-type "positive"
-value "8"
-)
 ]
 )
 viewicon (ZoomableIcon
-uid 356,0
+uid 713,0
 sl 0
 va (VaSet
 vasetType 1
 fg "49152,49152,49152"
 )
-xt "29250,19250,30750,20750"
-iconName "VhdlFileViewIcon.png"
-iconMaskName "VhdlFileViewIcon.msk"
-ftype 10
+xt "58250,44250,59750,45750"
+iconName "BlockDiagram.png"
+iconMaskName "BlockDiagram.msk"
+ftype 1
 )
 viewiconposition 0
 portVis (PortSigDisplay
 sTC 0
-sIVOD 1
+sF 0
 )
 archFileType "UNKNOWN"
 )
-*31 (Wire
+*33 (Wire
 uid 43,0
 shape (OrthoPolyLine
 uid 44,0
@@ -1206,7 +1262,7 @@ tm "WireNameMgr"
 )
 on &2
 )
-*32 (Wire
+*34 (Wire
 uid 57,0
 shape (OrthoPolyLine
 uid 58,0
@@ -1242,7 +1298,7 @@ tm "WireNameMgr"
 )
 on &4
 )
-*33 (Wire
+*35 (Wire
 uid 71,0
 shape (OrthoPolyLine
 uid 72,0
@@ -1278,7 +1334,7 @@ tm "WireNameMgr"
 )
 on &6
 )
-*34 (Wire
+*36 (Wire
 uid 252,0
 shape (OrthoPolyLine
 uid 253,0
@@ -1314,7 +1370,7 @@ tm "WireNameMgr"
 )
 on &19
 )
-*35 (Wire
+*37 (Wire
 uid 266,0
 shape (OrthoPolyLine
 uid 267,0
@@ -1352,7 +1408,7 @@ tm "WireNameMgr"
 )
 on &21
 )
-*36 (Wire
+*38 (Wire
 uid 280,0
 shape (OrthoPolyLine
 uid 281,0
@@ -1383,76 +1439,6 @@ isHidden 1
 xt "16000,46800,19300,48000"
 st "reset"
 blo "16000,47800"
-tm "WireNameMgr"
-)
-)
-on &23
-)
-*37 (Wire
-uid 359,0
-shape (OrthoPolyLine
-uid 360,0
-va (VaSet
-vasetType 3
-)
-xt "24000,17000,28250,17000"
-pts [
-"28250,17000"
-"24000,17000"
-]
-)
-start &25
-sat 32
-eat 16
-stc 0
-st 0
-sf 1
-tg (WTG
-uid 363,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 364,0
-va (VaSet
-)
-xt "25000,15800,28400,17000"
-st "clock"
-blo "25000,16800"
-tm "WireNameMgr"
-)
-)
-on &19
-)
-*38 (Wire
-uid 367,0
-shape (OrthoPolyLine
-uid 368,0
-va (VaSet
-vasetType 3
-)
-xt "24000,19000,28250,19000"
-pts [
-"28250,19000"
-"24000,19000"
-]
-)
-start &27
-sat 32
-eat 16
-stc 0
-st 0
-sf 1
-tg (WTG
-uid 371,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 372,0
-va (VaSet
-)
-xt "25000,17800,28300,19000"
-st "reset"
-blo "25000,18800"
 tm "WireNameMgr"
 )
 )
@@ -1570,8 +1556,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1544,832"
-viewArea "-27685,183,95447,66399"
+windowSize "0,0,1537,840"
+viewArea "-14964,-3250,138844,80410"
 cachedDiagramExtent "0,0,121000,82000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1595,7 +1581,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,0"
-lastUid 372,0
+lastUid 713,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2635,7 +2621,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 11,0
+suid 24,0
 usingSuid 1
 emptyRow *70 (LEmptyRow
 )

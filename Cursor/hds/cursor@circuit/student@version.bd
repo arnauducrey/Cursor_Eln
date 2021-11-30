@@ -107,19 +107,19 @@ value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursorCirc
 )
 (vvPair
 variable "date"
-value "29.11.2021"
+value "30.11.2021"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "29"
+value "30"
 )
 (vvPair
 variable "designName"
@@ -151,7 +151,7 @@ value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "29.11.2021"
+value "30.11.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -163,7 +163,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:14:52"
+value "09:49:20"
 )
 (vvPair
 variable "group"
@@ -299,7 +299,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "16:14:52"
+value "09:49:20"
 )
 (vvPair
 variable "unit"
@@ -344,7 +344,8 @@ va (VaSet
 isHidden 1
 )
 xt "26000,1000,40200,2200"
-st "reset            : std_ulogic"
+st "reset            : std_ulogic
+"
 )
 )
 *2 (Net
@@ -361,7 +362,8 @@ va (VaSet
 isHidden 1
 )
 xt "26000,-2600,40300,-1400"
-st "clock            : std_ulogic"
+st "clock            : std_ulogic
+"
 )
 )
 *3 (Grouping
@@ -749,7 +751,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "-17000,5800,-5000,6800"
-st "restart          : std_uLogic"
+st "restart          : std_uLogic
+"
 )
 )
 *16 (PortIoIn
@@ -822,7 +825,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "-17000,5800,-4200,6800"
-st "testMode         : std_uLogic"
+st "testMode         : std_uLogic
+"
 )
 )
 *18 (PortIoOut
@@ -894,7 +898,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,800,23000,1800"
-st "testOut          : std_uLogic_vector(1 TO testLineNb)"
+st "testOut          : std_uLogic_vector(1 TO testLineNb)
+"
 )
 )
 *20 (PortIoIn
@@ -967,7 +972,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,800,12500,1800"
-st "sensor1          : std_uLogic"
+st "sensor1          : std_uLogic
+"
 )
 )
 *22 (PortIoIn
@@ -1040,7 +1046,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,800,12500,1800"
-st "sensor2          : std_uLogic"
+st "sensor2          : std_uLogic
+"
 )
 )
 *24 (PortIoOut
@@ -1111,7 +1118,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,800,12900,1800"
-st "motorOn          : std_uLogic"
+st "motorOn          : std_uLogic
+"
 )
 )
 *26 (PortIoOut
@@ -1182,7 +1190,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,800,12100,1800"
-st "side1            : std_uLogic"
+st "side1            : std_uLogic
+"
 )
 )
 *28 (PortIoOut
@@ -1253,7 +1262,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,800,12100,1800"
-st "side2            : std_uLogic"
+st "side2            : std_uLogic
+"
 )
 )
 *30 (PortIoIn
@@ -1326,7 +1336,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,800,12800,1800"
-st "encoderA         : std_uLogic"
+st "encoderA         : std_uLogic
+"
 )
 )
 *32 (PortIoIn
@@ -1399,7 +1410,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,800,12800,1800"
-st "encoderB         : std_uLogic"
+st "encoderB         : std_uLogic
+"
 )
 )
 *34 (PortIoIn
@@ -1472,7 +1484,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,800,12600,1800"
-st "encoderI         : std_uLogic"
+st "encoderI         : std_uLogic
+"
 )
 )
 *36 (PortIoIn
@@ -1545,7 +1558,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,800,12100,1800"
-st "go1              : std_uLogic"
+st "go1              : std_uLogic
+"
 )
 )
 *38 (PortIoIn
@@ -1618,7 +1632,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,800,12100,1800"
-st "go2              : std_uLogic"
+st "go2              : std_uLogic
+"
 )
 )
 *40 (PortIoIn
@@ -1690,7 +1705,8 @@ va (VaSet
 isHidden 1
 )
 xt "0,-23800,15200,-22600"
-st "button4          : std_uLogic"
+st "button4          : std_uLogic
+"
 )
 )
 *42 (PortIoIn
@@ -1817,7 +1833,8 @@ va (VaSet
 isHidden 1
 )
 xt "0,400,15000,1600"
-st "CS1_n            : std_ulogic"
+st "CS1_n            : std_ulogic
+"
 )
 )
 *45 (Net
@@ -1834,7 +1851,8 @@ va (VaSet
 isHidden 1
 )
 xt "0,400,14300,1600"
-st "SCL              : std_ulogic"
+st "SCL              : std_ulogic
+"
 )
 )
 *46 (Net
@@ -1851,7 +1869,8 @@ va (VaSet
 isHidden 1
 )
 xt "0,400,13700,1600"
-st "SI               : std_ulogic"
+st "SI               : std_ulogic
+"
 )
 )
 *47 (Net
@@ -1868,7 +1887,8 @@ va (VaSet
 isHidden 1
 )
 xt "0,400,14000,1600"
-st "A0               : std_ulogic"
+st "A0               : std_ulogic
+"
 )
 )
 *48 (Net
@@ -1885,7 +1905,8 @@ va (VaSet
 isHidden 1
 )
 xt "0,400,14900,1600"
-st "RST_n            : std_ulogic"
+st "RST_n            : std_ulogic
+"
 )
 )
 *49 (PortIoOut
@@ -2393,7 +2414,8 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,20800,1200"
-st "SIGNAL restart_position : std_ulogic"
+st "SIGNAL restart_position : std_ulogic
+"
 )
 )
 *63 (Net
@@ -2411,7 +2433,8 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,30200,1200"
-st "SIGNAL position         : unsigned(bitNb-1 DOWNTO 0)"
+st "SIGNAL position         : unsigned(bitNb-1 DOWNTO 0)
+"
 )
 )
 *64 (SaComponent
@@ -3755,8 +3778,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1544,832"
-viewArea "51190,21347,164171,82104"
+windowSize "0,0,1537,840"
+viewArea "37061,2900,177779,79440"
 cachedDiagramExtent "-17000,-23800,182600,152000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ippsion.hevs.ch\\PREA309_HPLJ3005DN,winspool,"
@@ -3783,7 +3806,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "24000,-12000"
-lastUid 11777,0
+lastUid 11865,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
