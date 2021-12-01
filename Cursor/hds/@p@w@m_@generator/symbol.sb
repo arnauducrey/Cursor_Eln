@@ -479,19 +479,19 @@ value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\PWM_Genera
 )
 (vvPair
 variable "date"
-value "30.11.2021"
+value "01.12.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "30"
+value "01"
 )
 (vvPair
 variable "entity_name"
@@ -519,7 +519,7 @@ value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "30.11.2021"
+value "01.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -531,7 +531,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:48:41"
+value "08:14:48"
 )
 (vvPair
 variable "group"
@@ -555,7 +555,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "11"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -563,11 +563,11 @@ value "PWM_Generator"
 )
 (vvPair
 variable "month"
-value "nov."
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "novembre"
+value "décembre"
 )
 (vvPair
 variable "p"
@@ -603,7 +603,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "09:48:41"
+value "08:14:48"
 )
 (vvPair
 variable "unit"
@@ -1576,7 +1576,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 287,0
+lastUid 310,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"
