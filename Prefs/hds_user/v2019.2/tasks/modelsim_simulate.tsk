@@ -65,6 +65,8 @@ settingsMap [
 "1"
 "UseBatch"
 "0"
+"UseCLI"
+"0"
 "UseGUI"
 "1"
 "VitalVersion"

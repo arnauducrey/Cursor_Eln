@@ -188,7 +188,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:32:19"
+value "14:19:13"
 )
 (vvPair
 variable "group"
@@ -260,7 +260,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:32:19"
+value "14:19:13"
 )
 (vvPair
 variable "unit"
@@ -675,7 +675,7 @@ uid 152,0
 lang 11
 decl (Decl
 n "clock"
-t "unsigned"
+t "std_ulogic"
 o 1
 suid 1,0
 )
@@ -684,8 +684,9 @@ uid 153,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,2400,34500,3200"
-st "clock       : unsigned"
+xt "22000,2400,35500,3200"
+st "clock       : std_ulogic
+"
 )
 )
 *14 (PortIoIn
@@ -748,7 +749,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3200,35500,4000"
-st "encoderIn   : std_ulogic"
+st "encoderIn   : std_ulogic
+"
 )
 )
 *16 (PortIoOut
@@ -800,7 +802,7 @@ uid 180,0
 decl (Decl
 n "position"
 t "unsigned"
-b "(bitNb-1 DOWNTO 0)"
+b "(15 DOWNTO 0)"
 o 5
 suid 3,0
 )
@@ -809,8 +811,9 @@ uid 181,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,5600,44000,6400"
-st "position    : unsigned(bitNb-1 DOWNTO 0)"
+xt "22000,5600,41000,6400"
+st "position    : unsigned(15 DOWNTO 0)
+"
 )
 )
 *18 (PortIoIn
@@ -863,7 +866,7 @@ uid 194,0
 lang 11
 decl (Decl
 n "reset"
-t "unsigned"
+t "std_ulogic"
 o 3
 suid 4,0
 )
@@ -872,8 +875,9 @@ uid 195,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,4000,34500,4800"
-st "reset       : unsigned"
+xt "22000,4000,35500,4800"
+st "reset       : std_ulogic
+"
 )
 )
 *20 (SaComponent
@@ -1392,7 +1396,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7600,39000,8400"
-st "SIGNAL Q           : std_uLogic"
+st "SIGNAL Q           : std_uLogic
+"
 )
 )
 *39 (SaComponent
@@ -1628,7 +1633,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8400,39000,9200"
-st "SIGNAL in2         : std_uLogic"
+st "SIGNAL in2         : std_uLogic
+"
 )
 )
 *48 (SaComponent
@@ -1955,7 +1961,7 @@ uid 449,0
 lang 11
 decl (Decl
 n "reset_pos"
-t "unsigned"
+t "std_ulogic"
 o 4
 suid 10,0
 )
@@ -1964,8 +1970,9 @@ uid 450,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,4800,34500,5600"
-st "reset_pos   : unsigned"
+xt "22000,4800,35500,5600"
+st "reset_pos   : std_ulogic
+"
 )
 )
 *59 (Net
@@ -1982,7 +1989,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9200,39000,10000"
-st "SIGNAL rising_edge : std_ulogic"
+st "SIGNAL rising_edge : std_ulogic
+"
 )
 )
 *60 (Wire
@@ -2091,11 +2099,10 @@ stg "STSignalDisplayStrategy"
 f (Text
 uid 179,0
 va (VaSet
-isHidden 1
 )
-xt "90000,34800,102900,36000"
-st "position : (bitNb-1:0)"
-blo "90000,35800"
+xt "87000,33800,96700,35000"
+st "position : (15:0)"
+blo "87000,34800"
 tm "WireNameMgr"
 )
 )
@@ -2592,8 +2599,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1537,840"
-viewArea "-8337,886,114382,67636"
+windowSize "0,24,1537,864"
+viewArea "-8300,900,114746,67828"
 cachedDiagramExtent "-4800,0,112000,84000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -2617,7 +2624,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-17000,0"
-lastUid 557,0
+lastUid 619,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3701,7 +3708,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "clock"
-t "unsigned"
+t "std_ulogic"
 o 1
 suid 1,0
 )
@@ -3726,7 +3733,7 @@ m 1
 decl (Decl
 n "position"
 t "unsigned"
-b "(bitNb-1 DOWNTO 0)"
+b "(15 DOWNTO 0)"
 o 5
 suid 3,0
 )
@@ -3738,7 +3745,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "reset"
-t "unsigned"
+t "std_ulogic"
 o 3
 suid 4,0
 )
@@ -3774,7 +3781,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "reset_pos"
-t "unsigned"
+t "std_ulogic"
 o 4
 suid 10,0
 )
