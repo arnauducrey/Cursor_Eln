@@ -4345,7 +4345,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x200-0+0"
+logWindowGeometry "600x576-0+0"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6372,19 +6372,20 @@ yPos 0
 width 1384
 height 884
 activeSidePanelTab 2
-activeLibraryTab 3
+activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
-componentBrowserXpos 855
-componentBrowserYpos 250
-componentBrowserWidth 300
-componentBrowserHeight 340
+componentBrowserXpos 729
+componentBrowserYpos 193
+componentBrowserWidth 497
+componentBrowserHeight 535
 componentBrowserLibraryNames [
 "Board"
 "gates"
 "sequential"
 "io"
 "std"
+"Cursor"
 ]
 )
 (SmPreferences
