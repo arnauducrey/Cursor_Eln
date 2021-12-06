@@ -6204,8 +6204,8 @@ size 180
 )
 ]
 displayHierarchy 0
-xPos 75
-yPos 25
+xPos 0
+yPos 0
 width 1552
 height 840
 activeSidePanelTab 2
@@ -6221,7 +6221,6 @@ componentBrowserLibraryNames [
 "gates"
 "sequential"
 "io"
-"std"
 "Cursor"
 ]
 )
