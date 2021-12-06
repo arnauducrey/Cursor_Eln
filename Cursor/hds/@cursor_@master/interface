@@ -604,7 +604,11 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
+<<<<<<< HEAD
 value "15:44:56"
+=======
+value "14:11:42"
+>>>>>>> master
 )
 (vvPair
 variable "group"
@@ -676,7 +680,11 @@ value "interface"
 )
 (vvPair
 variable "time"
+<<<<<<< HEAD
 value "15:44:56"
+=======
+value "14:11:42"
+>>>>>>> master
 )
 (vvPair
 variable "unit"
@@ -1838,6 +1846,10 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
+<<<<<<< HEAD
 lastUid 457,0
+=======
+lastUid 394,0
+>>>>>>> master
 activeModelName "Symbol:CDM"
 )
