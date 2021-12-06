@@ -135,7 +135,7 @@ value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:01:48"
+value "14:22:48"
 )
 (vvPair
 variable "group"
@@ -207,7 +207,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "14:01:48"
+value "14:22:48"
 )
 (vvPair
 variable "unit"
@@ -543,7 +543,6 @@ sl 0
 ro 270
 va (VaSet
 vasetType 1
-isHidden 1
 fg "65535,65535,0"
 )
 xt "-96446,20234,-96146,20534"
@@ -562,7 +561,7 @@ isHidden 1
 fg "65535,65535,65535"
 lineColor "0,32768,49152"
 )
-xt "-97495,18084,-92595,19484"
+xt "-99195,18084,-90895,19484"
 )
 autoResize 1
 cond (MLText
@@ -570,8 +569,8 @@ uid 84,0
 va (VaSet
 isHidden 1
 )
-xt "-97395,18184,-92695,19384"
-st "rst = '1'"
+xt "-99095,18184,-90995,19384"
+st "sensor2 = '1'"
 tm "SmControlConditionMgr"
 )
 )
@@ -609,8 +608,8 @@ text (Text
 uid 78,0
 va (VaSet
 )
-xt "-99595,19784,-97495,20984"
-st "rst"
+xt "-102295,19784,-97495,20984"
+st "sensor2"
 ju 2
 blo "-97495,20784"
 tm "SmControlSignalNameMgr"
@@ -630,6 +629,7 @@ tm "Actions"
 )
 )
 level 1
+mode 0
 )
 *5 (Link
 uid 87,0
@@ -3702,6 +3702,7 @@ sl 0
 ro 270
 va (VaSet
 vasetType 1
+isHidden 1
 fg "65535,65535,0"
 )
 xt "-96440,26136,-96140,26436"
@@ -3720,7 +3721,7 @@ isHidden 1
 fg "65535,65535,65535"
 lineColor "0,32768,49152"
 )
-xt "-98489,23986,-90189,25386"
+xt "-96789,23986,-91889,25386"
 )
 autoResize 1
 cond (MLText
@@ -3728,8 +3729,8 @@ uid 864,0
 va (VaSet
 isHidden 1
 )
-xt "-98389,24086,-90289,25286"
-st "sensor2 = '1'"
+xt "-96689,24086,-91989,25286"
+st "rst = '1'"
 tm "SmControlConditionMgr"
 )
 )
@@ -3750,6 +3751,7 @@ radius 1063
 pr (Text
 uid 861,0
 va (VaSet
+isHidden 1
 )
 xt "-94876,25686,-93476,26886"
 st "1"
@@ -3766,8 +3768,8 @@ text (Text
 uid 858,0
 va (VaSet
 )
-xt "-102289,25686,-97489,26886"
-st "sensor2"
+xt "-99589,25686,-97489,26886"
+st "rst"
 ju 2
 blo "-97489,26686"
 tm "SmControlSignalNameMgr"
@@ -3787,7 +3789,6 @@ tm "Actions"
 )
 )
 level 1
-mode 0
 )
 *36 (Link
 uid 867,0
@@ -3849,7 +3850,7 @@ start &4
 end &5
 ss 0
 es 0
-cond "rst = '1'"
+cond "sensor2 = '1'"
 tb (TransitionBlock
 uid 106,0
 ps "CenterOffsetStrategy"
@@ -3861,7 +3862,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "-92595,19284,-86895,21484"
+xt "-92595,19284,-83495,21484"
 )
 autoResize 1
 lineShape (Line
@@ -3869,18 +3870,18 @@ uid 108,0
 va (VaSet
 vasetType 3
 )
-xt "-92095,20884,-87395,20884"
+xt "-92095,20884,-83995,20884"
 pts [
 "-92095,20884"
-"-87395,20884"
+"-83995,20884"
 ]
 )
 condition (MLText
 uid 109,0
 va (VaSet
 )
-xt "-92095,19284,-87395,20484"
-st "rst = '1'"
+xt "-92095,19284,-83995,20484"
+st "sensor2 = '1'"
 tm "Condition"
 )
 actions (MLText
@@ -3888,7 +3889,7 @@ uid 110,0
 va (VaSet
 isHidden 1
 )
-xt "-94045,21284,-85445,22484"
+xt "-92345,21284,-83745,22484"
 st "< Automatic >"
 tm "Actions"
 )
@@ -5596,7 +5597,7 @@ start &35
 end &36
 ss 0
 es 0
-cond "sensor2 = '1'"
+cond "rst = '1'"
 tb (TransitionBlock
 uid 875,0
 ps "CenterOffsetStrategy"
@@ -5608,7 +5609,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "-93414,25186,-84314,27386"
+xt "-93414,25186,-87714,27386"
 )
 autoResize 1
 lineShape (Line
@@ -5616,18 +5617,18 @@ uid 877,0
 va (VaSet
 vasetType 3
 )
-xt "-92914,26786,-84814,26786"
+xt "-92914,26786,-88214,26786"
 pts [
 "-92914,26786"
-"-84814,26786"
+"-88214,26786"
 ]
 )
 condition (MLText
 uid 878,0
 va (VaSet
 )
-xt "-92914,25186,-84814,26386"
-st "sensor2 = '1'"
+xt "-92914,25186,-88214,26386"
+st "rst = '1'"
 tm "Condition"
 )
 actions (MLText
@@ -5635,7 +5636,7 @@ uid 879,0
 va (VaSet
 isHidden 1
 )
-xt "-93164,27186,-84564,28386"
+xt "-94864,27186,-86264,28386"
 st "< Automatic >"
 tm "Actions"
 )
@@ -5780,9 +5781,9 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1376,880"
-viewArea "-103420,-36588,225113,179402"
-cachedDiagramExtent "-102289,-1000,166113,163576"
+windowSize "0,0,1369,888"
+viewArea "-44593,-41903,164047,91948"
+cachedDiagramExtent "-102295,-1000,166113,163576"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
 toPrinter 1
@@ -6190,7 +6191,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 882,0
+lastUid 911,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *90 (LEmptyRow
@@ -6276,7 +6277,7 @@ port (LogicalPort
 decl (Decl
 n "position"
 t "unsigned"
-b "(bitNb-1 DOWNTO 0)"
+b "(15 DOWNTO 0)"
 o 4
 )
 )
@@ -7586,6 +7587,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine"
+activeModelName "StateMachine:CDM"
 LanguageMgr "Vhdl2008LangMgr"
 )

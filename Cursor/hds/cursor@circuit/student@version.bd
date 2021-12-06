@@ -153,7 +153,7 @@ value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:09:42"
+value "14:21:44"
 )
 (vvPair
 variable "group"
@@ -289,7 +289,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "14:09:42"
+value "14:21:44"
 )
 (vvPair
 variable "unit"
@@ -2169,7 +2169,7 @@ uid 11583,0
 decl (Decl
 n "position"
 t "unsigned"
-b "(bitNb-1 DOWNTO 0)"
+b "(15 DOWNTO 0)"
 o 23
 suid 86,0
 )
@@ -2178,8 +2178,8 @@ uid 11584,0
 va (VaSet
 isHidden 1
 )
-xt "0,0,29000,1200"
-st "SIGNAL position     : unsigned(bitNb-1 DOWNTO 0)
+xt "0,0,26500,1200"
+st "SIGNAL position     : unsigned(15 DOWNTO 0)
 "
 )
 )
@@ -4246,8 +4246,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1369,888"
-viewArea "32277,-4180,146377,71820"
+windowSize "0,24,1369,912"
+viewArea "43750,10775,135030,71575"
 cachedDiagramExtent "-17000,-23800,182600,152000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ippsion.hevs.ch\\PREA309_HPLJ3005DN,winspool,"
@@ -4274,7 +4274,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "24000,-12000"
-lastUid 12428,0
+lastUid 12489,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -5573,7 +5573,7 @@ m 4
 decl (Decl
 n "position"
 t "unsigned"
-b "(bitNb-1 DOWNTO 0)"
+b "(15 DOWNTO 0)"
 o 23
 suid 86,0
 )
