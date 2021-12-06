@@ -6369,14 +6369,14 @@ size 180
 displayHierarchy 0
 xPos 0
 yPos 0
-width 1384
-height 884
+width 1552
+height 840
 activeSidePanelTab 2
-activeLibraryTab 3
+activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
-componentBrowserXpos 855
-componentBrowserYpos 250
+componentBrowserXpos 314
+componentBrowserYpos 225
 componentBrowserWidth 300
 componentBrowserHeight 340
 componentBrowserLibraryNames [
@@ -6384,7 +6384,7 @@ componentBrowserLibraryNames [
 "gates"
 "sequential"
 "io"
-"std"
+"Cursor"
 ]
 )
 (SmPreferences
