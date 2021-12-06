@@ -26,7 +26,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 18,0
+suid 19,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -83,7 +83,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_ulogic"
 o 3
 suid 11,0
 )
@@ -134,7 +134,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_ulogic"
 o 5
 suid 15,0
 )
@@ -604,7 +604,7 @@ value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:22:48"
+value "15:04:53"
 )
 (vvPair
 variable "group"
@@ -676,7 +676,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:22:48"
+value "15:04:53"
 )
 (vvPair
 variable "unit"
@@ -789,15 +789,15 @@ uid 203,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,4000,62000,4800"
-st "clk          : IN     unsigned  ;
+xt "44000,4000,63000,4800"
+st "clk          : IN     std_ulogic  ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_ulogic"
 o 3
 suid 11,0
 )
@@ -813,7 +813,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "30000,13625,30750,14375"
+xt "33000,13625,33750,14375"
 )
 tg (CPTG
 uid 206,0
@@ -824,10 +824,10 @@ uid 207,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "22500,13300,29000,14700"
+xt "25500,13300,32000,14700"
 st "Mode_fct"
 ju 2
-blo "29000,14500"
+blo "32000,14500"
 tm "CptPortNameMgr"
 )
 )
@@ -908,7 +908,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "30000,8625,30750,9375"
+xt "33000,8625,33750,9375"
 )
 tg (CPTG
 uid 216,0
@@ -919,10 +919,10 @@ uid 217,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "21800,8300,29000,9700"
+xt "24800,8300,32000,9700"
 st "reset_pos"
 ju 2
-blo "29000,9500"
+blo "32000,9500"
 tm "CptPortNameMgr"
 )
 )
@@ -978,15 +978,15 @@ uid 223,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,5600,62000,6400"
-st "rst          : IN     unsigned  ;
+xt "44000,5600,63000,6400"
+st "rst          : IN     std_ulogic  ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_ulogic"
 o 5
 suid 15,0
 )
@@ -1136,7 +1136,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,5000,30000,20000"
+xt "15000,5000,33000,20000"
 )
 oxt "15000,6000,23000,16000"
 biTextGroup (BiTextGroup
@@ -1838,7 +1838,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 440,0
+lastUid 516,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

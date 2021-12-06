@@ -33,7 +33,7 @@ duName "Cursor_Master"
 elements [
 ]
 mwi 0
-uid 414,0
+uid 592,0
 )
 ]
 libraryRefs [
@@ -145,7 +145,7 @@ value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:23:17"
+value "15:09:56"
 )
 (vvPair
 variable "group"
@@ -217,7 +217,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:23:17"
+value "15:09:56"
 )
 (vvPair
 variable "unit"
@@ -677,7 +677,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6800,45500,7600"
-st "SIGNAL position     : unsigned(15 DOWNTO 0)"
+st "SIGNAL position     : unsigned(15 DOWNTO 0)
+"
 )
 )
 *17 (Net
@@ -685,7 +686,7 @@ uid 173,0
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_uLogic"
 o 2
 suid 2,0
 )
@@ -694,8 +695,9 @@ uid 174,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,8400,38500,9200"
-st "SIGNAL rst          : unsigned"
+xt "22000,8400,39500,9200"
+st "SIGNAL rst          : std_uLogic
+"
 )
 )
 *18 (Net
@@ -703,7 +705,7 @@ uid 181,0
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_uLogic"
 o 3
 suid 3,0
 )
@@ -712,8 +714,9 @@ uid 182,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,6000,38500,6800"
-st "SIGNAL clk          : unsigned"
+xt "22000,6000,39500,6800"
+st "SIGNAL clk          : std_uLogic
+"
 )
 )
 *19 (Net
@@ -732,7 +735,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3600,45000,4400"
-st "SIGNAL BusBouton    : unsigned(3 DOWNTO 0)"
+st "SIGNAL BusBouton    : unsigned(3 DOWNTO 0)
+"
 )
 )
 *20 (Net
@@ -749,7 +753,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10000,39500,10800"
-st "SIGNAL sensor2      : std_uLogic"
+st "SIGNAL sensor2      : std_uLogic
+"
 )
 )
 *21 (Net
@@ -766,7 +771,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9200,39500,10000"
-st "SIGNAL sensor1      : std_uLogic"
+st "SIGNAL sensor1      : std_uLogic
+"
 )
 )
 *22 (Net
@@ -784,7 +790,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5200,39500,6000"
-st "SIGNAL STOP_Acc_dec : std_ulogic"
+st "SIGNAL STOP_Acc_dec : std_ulogic
+"
 )
 )
 *23 (Net
@@ -802,7 +809,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7600,39500,8400"
-st "SIGNAL reset_pos    : std_ulogic"
+st "SIGNAL reset_pos    : std_ulogic
+"
 )
 )
 *24 (Net
@@ -821,17 +829,18 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4400,45000,5200"
-st "SIGNAL Mode_fct     : unsigned(2 DOWNTO 0)"
+st "SIGNAL Mode_fct     : unsigned(2 DOWNTO 0)
+"
 )
 )
 *25 (SaComponent
-uid 414,0
+uid 592,0
 optionalChildren [
 *26 (CptPort
-uid 378,0
+uid 556,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 379,0
+uid 557,0
 ro 90
 va (VaSet
 vasetType 1
@@ -840,11 +849,11 @@ fg "0,65535,0"
 xt "32250,19625,33000,20375"
 )
 tg (CPTG
-uid 380,0
+uid 558,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 381,0
+uid 559,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -865,10 +874,10 @@ suid 10,0
 )
 )
 *27 (CptPort
-uid 382,0
+uid 560,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 383,0
+uid 561,0
 ro 90
 va (VaSet
 vasetType 1
@@ -877,11 +886,11 @@ fg "0,65535,0"
 xt "32250,21625,33000,22375"
 )
 tg (CPTG
-uid 384,0
+uid 562,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 385,0
+uid 563,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -894,37 +903,37 @@ thePort (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_ulogic"
 o 3
 suid 11,0
 )
 )
 )
 *28 (CptPort
-uid 386,0
+uid 564,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 387,0
+uid 565,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "48000,18625,48750,19375"
+xt "51000,18625,51750,19375"
 )
 tg (CPTG
-uid 388,0
+uid 566,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 389,0
+uid 567,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "40500,18300,47000,19700"
+xt "43500,18300,50000,19700"
 st "Mode_fct"
 ju 2
-blo "47000,19500"
+blo "50000,19500"
 )
 )
 thePort (LogicalPort
@@ -940,10 +949,10 @@ suid 12,0
 )
 )
 *29 (CptPort
-uid 390,0
+uid 568,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 391,0
+uid 569,0
 ro 90
 va (VaSet
 vasetType 1
@@ -952,11 +961,11 @@ fg "0,65535,0"
 xt "32250,13625,33000,14375"
 )
 tg (CPTG
-uid 392,0
+uid 570,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 393,0
+uid 571,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -976,30 +985,30 @@ suid 13,0
 )
 )
 *30 (CptPort
-uid 394,0
+uid 572,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 395,0
+uid 573,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "48000,13625,48750,14375"
+xt "51000,13625,51750,14375"
 )
 tg (CPTG
-uid 396,0
+uid 574,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 397,0
+uid 575,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "39800,13300,47000,14700"
+xt "42800,13300,50000,14700"
 st "reset_pos"
 ju 2
-blo "47000,14500"
+blo "50000,14500"
 )
 )
 thePort (LogicalPort
@@ -1014,10 +1023,10 @@ suid 14,0
 )
 )
 *31 (CptPort
-uid 398,0
+uid 576,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 399,0
+uid 577,0
 ro 90
 va (VaSet
 vasetType 1
@@ -1026,11 +1035,11 @@ fg "0,65535,0"
 xt "32250,22625,33000,23375"
 )
 tg (CPTG
-uid 400,0
+uid 578,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 401,0
+uid 579,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -1043,17 +1052,17 @@ thePort (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_ulogic"
 o 5
 suid 15,0
 )
 )
 )
 *32 (CptPort
-uid 402,0
+uid 580,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 403,0
+uid 581,0
 ro 90
 va (VaSet
 vasetType 1
@@ -1062,11 +1071,11 @@ fg "0,65535,0"
 xt "32250,15625,33000,16375"
 )
 tg (CPTG
-uid 404,0
+uid 582,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 405,0
+uid 583,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -1085,10 +1094,10 @@ suid 16,0
 )
 )
 *33 (CptPort
-uid 406,0
+uid 584,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 407,0
+uid 585,0
 ro 90
 va (VaSet
 vasetType 1
@@ -1097,11 +1106,11 @@ fg "0,65535,0"
 xt "32250,17625,33000,18375"
 )
 tg (CPTG
-uid 408,0
+uid 586,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 409,0
+uid 587,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -1120,10 +1129,10 @@ suid 17,0
 )
 )
 *34 (CptPort
-uid 410,0
+uid 588,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 411,0
+uid 589,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1131,11 +1140,11 @@ fg "0,65535,0"
 xt "39625,25000,40375,25750"
 )
 tg (CPTG
-uid 412,0
+uid 590,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 413,0
+uid 591,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -1156,23 +1165,23 @@ suid 18,0
 )
 ]
 shape (Rectangle
-uid 415,0
+uid 593,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "33000,10000,48000,25000"
+xt "33000,10000,51000,25000"
 )
-oxt "15000,5000,30000,20000"
+oxt "15000,5000,33000,20000"
 ttg (MlTextGroup
-uid 416,0
+uid 594,0
 ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 textVec [
 *35 (Text
-uid 417,0
+uid 595,0
 va (VaSet
 font "Verdana,9,1"
 )
@@ -1182,7 +1191,7 @@ blo "33850,10800"
 tm "BdLibraryNameMgr"
 )
 *36 (Text
-uid 418,0
+uid 596,0
 va (VaSet
 font "Verdana,9,1"
 )
@@ -1192,7 +1201,7 @@ blo "33850,12000"
 tm "CptNameMgr"
 )
 *37 (Text
-uid 419,0
+uid 597,0
 va (VaSet
 font "Verdana,9,1"
 )
@@ -1204,12 +1213,12 @@ tm "InstanceNameMgr"
 ]
 )
 ga (GenericAssociation
-uid 420,0
+uid 598,0
 ps "EdgeToEdgeStrategy"
 matrix (Matrix
-uid 421,0
+uid 599,0
 text (MLText
-uid 422,0
+uid 600,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1221,7 +1230,7 @@ elements [
 ]
 )
 viewicon (ZoomableIcon
-uid 423,0
+uid 601,0
 sl 0
 va (VaSet
 vasetType 1
@@ -1515,9 +1524,9 @@ uid 224,0
 va (VaSet
 vasetType 3
 )
-xt "48750,14000,63000,31000"
+xt "51750,14000,63000,31000"
 pts [
-"48750,14000"
+"51750,14000"
 "63000,14000"
 "63000,31000"
 ]
@@ -1537,9 +1546,9 @@ f (Text
 uid 228,0
 va (VaSet
 )
-xt "50750,12800,56450,14000"
+xt "53750,12800,59450,14000"
 st "reset_pos"
-blo "50750,13800"
+blo "53750,13800"
 tm "WireNameMgr"
 )
 )
@@ -1552,9 +1561,9 @@ uid 232,0
 va (VaSet
 vasetType 3
 )
-xt "48750,19000,59000,31000"
+xt "51750,19000,59000,31000"
 pts [
-"48750,19000"
+"51750,19000"
 "59000,19000"
 "59000,31000"
 ]
@@ -1574,9 +1583,9 @@ f (Text
 uid 236,0
 va (VaSet
 )
-xt "50750,17800,56050,19000"
+xt "53750,17800,59050,19000"
 st "Mode_fct"
-blo "50750,18800"
+blo "53750,18800"
 tm "WireNameMgr"
 )
 )
@@ -1694,12 +1703,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,24,1369,912"
-viewArea "-3994,-12194,85027,47102"
+windowSize "0,0,1369,888"
+viewArea "-2600,-12200,86398,47080"
 cachedDiagramExtent "0,0,73000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 423,0
+lastUid 642,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2797,7 +2806,7 @@ lang 11
 m 4
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_uLogic"
 o 2
 suid 2,0
 )
@@ -2810,7 +2819,7 @@ lang 11
 m 4
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_uLogic"
 o 3
 suid 3,0
 )
