@@ -18,15 +18,6 @@ unitName "gates"
 ]
 instances [
 (Instance
-name "U_1"
-duLibraryName "Cursor_test"
-duName "CursorMaster_tester"
-elements [
-]
-mwi 0
-uid 155,0
-)
-(Instance
 name "U_0"
 duLibraryName "Cursor"
 duName "Cursor_Master"
@@ -34,6 +25,15 @@ elements [
 ]
 mwi 0
 uid 592,0
+)
+(Instance
+name "U_1"
+duLibraryName "Cursor_test"
+duName "CursorMasterTester"
+elements [
+]
+mwi 0
+uid 807,0
 )
 ]
 libraryRefs [
@@ -93,19 +93,19 @@ value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\FS
 )
 (vvPair
 variable "date"
-value "06.12.2021"
+value "07.12.2021"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "06"
+value "07"
 )
 (vvPair
 variable "entity_name"
@@ -133,7 +133,7 @@ value "Arnaud"
 )
 (vvPair
 variable "graphical_source_date"
-value "06.12.2021"
+value "07.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -145,7 +145,7 @@ value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:48:06"
+value "09:40:39"
 )
 (vvPair
 variable "group"
@@ -217,7 +217,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:48:06"
+value "09:40:39"
 )
 (vvPair
 variable "unit"
@@ -582,88 +582,7 @@ xt "42000,54000,83000,59000"
 )
 oxt "14000,66000,55000,71000"
 )
-*12 (Blk
-uid 155,0
-shape (Rectangle
-uid 156,0
-va (VaSet
-vasetType 1
-fg "39936,56832,65280"
-lineColor "0,0,32768"
-lineWidth 2
-)
-xt "9000,39000,73000,47000"
-)
-oxt "5000,31000,69000,39000"
-ttg (MlTextGroup
-uid 157,0
-ps "CenterOffsetStrategy"
-stg "VerticalLayoutStrategy"
-textVec [
-*13 (Text
-uid 158,0
-va (VaSet
-font "Verdana,9,1"
-)
-xt "22500,40200,29500,41400"
-st "Cursor_test"
-blo "22500,41200"
-tm "BdLibraryNameMgr"
-)
-*14 (Text
-uid 159,0
-va (VaSet
-font "Verdana,9,1"
-)
-xt "22500,41400,33900,42600"
-st "CursorMaster_tester"
-blo "22500,42400"
-tm "BlkNameMgr"
-)
-*15 (Text
-uid 160,0
-va (VaSet
-font "Verdana,9,1"
-)
-xt "22500,42600,25000,43800"
-st "U_1"
-blo "22500,43600"
-tm "InstanceNameMgr"
-)
-]
-)
-ga (GenericAssociation
-uid 161,0
-ps "EdgeToEdgeStrategy"
-matrix (Matrix
-uid 162,0
-text (MLText
-uid 163,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "22500,50200,22500,50200"
-)
-header ""
-)
-elements [
-]
-)
-viewicon (ZoomableIcon
-uid 164,0
-sl 0
-va (VaSet
-vasetType 1
-fg "49152,49152,49152"
-)
-xt "9250,45250,10750,46750"
-iconName "VhdlFileViewIcon.png"
-iconMaskName "VhdlFileViewIcon.msk"
-ftype 10
-)
-viewiconposition 0
-)
-*16 (Net
+*12 (Net
 uid 165,0
 decl (Decl
 n "position"
@@ -681,7 +600,7 @@ xt "22000,6800,45500,7600"
 st "SIGNAL position     : unsigned(15 DOWNTO 0)"
 )
 )
-*17 (Net
+*13 (Net
 uid 173,0
 lang 11
 decl (Decl
@@ -699,7 +618,7 @@ xt "22000,8400,39500,9200"
 st "SIGNAL rst          : std_uLogic"
 )
 )
-*18 (Net
+*14 (Net
 uid 181,0
 lang 11
 decl (Decl
@@ -717,7 +636,7 @@ xt "22000,6000,39500,6800"
 st "SIGNAL clk          : std_uLogic"
 )
 )
-*19 (Net
+*15 (Net
 uid 189,0
 lang 11
 decl (Decl
@@ -736,7 +655,7 @@ xt "22000,3600,45000,4400"
 st "SIGNAL BusBouton    : unsigned(3 DOWNTO 0)"
 )
 )
-*20 (Net
+*16 (Net
 uid 197,0
 decl (Decl
 n "sensor2"
@@ -753,7 +672,7 @@ xt "22000,10000,39500,10800"
 st "SIGNAL sensor2      : std_uLogic"
 )
 )
-*21 (Net
+*17 (Net
 uid 205,0
 decl (Decl
 n "sensor1"
@@ -770,7 +689,7 @@ xt "22000,9200,39500,10000"
 st "SIGNAL sensor1      : std_uLogic"
 )
 )
-*22 (Net
+*18 (Net
 uid 213,0
 lang 11
 decl (Decl
@@ -788,7 +707,7 @@ xt "22000,5200,39500,6000"
 st "SIGNAL STOP_Acc_dec : std_ulogic"
 )
 )
-*23 (Net
+*19 (Net
 uid 221,0
 lang 11
 decl (Decl
@@ -806,7 +725,7 @@ xt "22000,7600,39500,8400"
 st "SIGNAL reset_pos    : std_ulogic"
 )
 )
-*24 (Net
+*20 (Net
 uid 229,0
 lang 11
 decl (Decl
@@ -825,10 +744,10 @@ xt "22000,4400,45000,5200"
 st "SIGNAL Mode_fct     : unsigned(2 DOWNTO 0)"
 )
 )
-*25 (SaComponent
+*21 (SaComponent
 uid 592,0
 optionalChildren [
-*26 (CptPort
+*22 (CptPort
 uid 556,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -865,7 +784,7 @@ suid 10,0
 )
 )
 )
-*27 (CptPort
+*23 (CptPort
 uid 560,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -901,7 +820,7 @@ suid 11,0
 )
 )
 )
-*28 (CptPort
+*24 (CptPort
 uid 564,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -940,7 +859,7 @@ suid 12,0
 )
 )
 )
-*29 (CptPort
+*25 (CptPort
 uid 568,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -976,7 +895,7 @@ suid 13,0
 )
 )
 )
-*30 (CptPort
+*26 (CptPort
 uid 572,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1014,7 +933,7 @@ suid 14,0
 )
 )
 )
-*31 (CptPort
+*27 (CptPort
 uid 576,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1050,7 +969,7 @@ suid 15,0
 )
 )
 )
-*32 (CptPort
+*28 (CptPort
 uid 580,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1085,7 +1004,7 @@ suid 16,0
 )
 )
 )
-*33 (CptPort
+*29 (CptPort
 uid 584,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1120,7 +1039,7 @@ suid 17,0
 )
 )
 )
-*34 (CptPort
+*30 (CptPort
 uid 588,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1172,7 +1091,7 @@ uid 594,0
 ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 textVec [
-*35 (Text
+*31 (Text
 uid 595,0
 va (VaSet
 font "Verdana,9,1"
@@ -1182,7 +1101,7 @@ st "Cursor"
 blo "37850,18800"
 tm "BdLibraryNameMgr"
 )
-*36 (Text
+*32 (Text
 uid 596,0
 va (VaSet
 font "Verdana,9,1"
@@ -1192,7 +1111,7 @@ st "Cursor_Master"
 blo "37850,20000"
 tm "CptNameMgr"
 )
-*37 (Text
+*33 (Text
 uid 597,0
 va (VaSet
 font "Verdana,9,1"
@@ -1240,6 +1159,87 @@ sF 0
 )
 archFileType "UNKNOWN"
 )
+*34 (Blk
+uid 807,0
+shape (Rectangle
+uid 808,0
+va (VaSet
+vasetType 1
+fg "39936,56832,65280"
+lineColor "0,0,32768"
+lineWidth 2
+)
+xt "14000,39000,73000,49000"
+)
+oxt "0,0,8000,10000"
+ttg (MlTextGroup
+uid 809,0
+ps "CenterOffsetStrategy"
+stg "VerticalLayoutStrategy"
+textVec [
+*35 (Text
+uid 810,0
+va (VaSet
+font "Verdana,9,1"
+)
+xt "14500,42200,21500,43400"
+st "Cursor_test"
+blo "14500,43200"
+tm "BdLibraryNameMgr"
+)
+*36 (Text
+uid 811,0
+va (VaSet
+font "Verdana,9,1"
+)
+xt "14500,43400,25400,44600"
+st "CursorMasterTester"
+blo "14500,44400"
+tm "BlkNameMgr"
+)
+*37 (Text
+uid 812,0
+va (VaSet
+font "Verdana,9,1"
+)
+xt "14500,44600,17000,45800"
+st "U_1"
+blo "14500,45600"
+tm "InstanceNameMgr"
+)
+]
+)
+ga (GenericAssociation
+uid 813,0
+ps "EdgeToEdgeStrategy"
+matrix (Matrix
+uid 814,0
+text (MLText
+uid 815,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "14500,52200,14500,52200"
+)
+header ""
+)
+elements [
+]
+)
+viewicon (ZoomableIcon
+uid 816,0
+sl 0
+va (VaSet
+vasetType 1
+fg "49152,49152,49152"
+)
+xt "14250,47250,15750,48750"
+iconName "VhdlFileViewIcon.png"
+iconMaskName "VhdlFileViewIcon.msk"
+ftype 10
+)
+viewiconposition 0
+)
 *38 (Wire
 uid 167,0
 shape (OrthoPolyLine
@@ -1255,8 +1255,8 @@ pts [
 "36250,22000"
 ]
 )
-start &12
-end &29
+start &34
+end &25
 sat 2
 eat 32
 sty 1
@@ -1278,7 +1278,7 @@ blo "24800,37700"
 tm "WireNameMgr"
 )
 )
-on &16
+on &12
 )
 *39 (Wire
 uid 175,0
@@ -1294,8 +1294,8 @@ pts [
 "36250,31000"
 ]
 )
-start &12
-end &31
+start &34
+end &27
 sat 2
 eat 32
 stc 0
@@ -1316,7 +1316,7 @@ blo "34800,38100"
 tm "WireNameMgr"
 )
 )
-on &17
+on &13
 )
 *40 (Wire
 uid 183,0
@@ -1332,8 +1332,8 @@ pts [
 "36250,30000"
 ]
 )
-start &12
-end &27
+start &34
+end &23
 sat 2
 eat 32
 stc 0
@@ -1354,7 +1354,7 @@ blo "32800,38200"
 tm "WireNameMgr"
 )
 )
-on &18
+on &14
 )
 *41 (Wire
 uid 191,0
@@ -1371,8 +1371,8 @@ pts [
 "36250,28000"
 ]
 )
-start &12
-end &26
+start &34
+end &22
 sat 2
 eat 32
 sty 1
@@ -1394,7 +1394,7 @@ blo "30800,38100"
 tm "WireNameMgr"
 )
 )
-on &19
+on &15
 )
 *42 (Wire
 uid 199,0
@@ -1410,8 +1410,8 @@ pts [
 "36250,26000"
 ]
 )
-start &12
-end &33
+start &34
+end &29
 sat 2
 eat 32
 stc 0
@@ -1432,7 +1432,7 @@ blo "28800,37800"
 tm "WireNameMgr"
 )
 )
-on &20
+on &16
 )
 *43 (Wire
 uid 207,0
@@ -1448,8 +1448,8 @@ pts [
 "36250,24000"
 ]
 )
-start &12
-end &32
+start &34
+end &28
 sat 2
 eat 32
 stc 0
@@ -1470,7 +1470,7 @@ blo "26800,37800"
 tm "WireNameMgr"
 )
 )
-on &21
+on &17
 )
 *44 (Wire
 uid 215,0
@@ -1485,8 +1485,8 @@ pts [
 "44000,33750"
 ]
 )
-start &12
-end &34
+start &34
+end &30
 sat 2
 eat 32
 stc 0
@@ -1507,7 +1507,7 @@ blo "43800,38400"
 tm "WireNameMgr"
 )
 )
-on &22
+on &18
 )
 *45 (Wire
 uid 223,0
@@ -1523,8 +1523,8 @@ pts [
 "67000,39000"
 ]
 )
-start &30
-end &12
+start &26
+end &34
 sat 32
 eat 1
 stc 0
@@ -1544,7 +1544,7 @@ blo "57750,21800"
 tm "WireNameMgr"
 )
 )
-on &23
+on &19
 )
 *46 (Wire
 uid 231,0
@@ -1560,8 +1560,8 @@ pts [
 "63000,39000"
 ]
 )
-start &28
-end &12
+start &24
+end &34
 sat 32
 eat 1
 stc 0
@@ -1581,7 +1581,7 @@ blo "57750,26800"
 tm "WireNameMgr"
 )
 )
-on &24
+on &20
 )
 ]
 bg "65535,65535,65535"
@@ -1695,8 +1695,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1369,888"
-viewArea "-27181,-2676,111878,89949"
+windowSize "-8,-8,1376,880"
+viewArea "-2000,1344,88168,60624"
 cachedDiagramExtent "0,0,83000,59000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1720,7 +1720,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 683,0
+lastUid 857,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
