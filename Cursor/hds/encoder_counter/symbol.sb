@@ -26,19 +26,11 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-suid 36,0
-usingSuid 1
-emptyRow *1 (LEmptyRow
-)
-uid 116,0
-=======
 suid 12,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
 uid 53,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 optionalChildren [
 *2 (RefLabelRowHdr
 )
@@ -76,18 +68,7 @@ tm "EolColHdrMgr"
 *14 (LogPort
 port (LogicalPort
 lang 11
-m 1
 decl (Decl
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-n "BusBouton"
-t "unsigned"
-b "(3 DOWNTO 0)"
-o 4
-suid 28,0
-)
-)
-uid 411,0
-=======
 n "clock"
 t "std_ulogic"
 o 1
@@ -95,48 +76,11 @@ suid 8,0
 )
 )
 uid 246,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *15 (LogPort
 port (LogicalPort
 lang 11
-m 1
 decl (Decl
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-n "clk"
-t "std_uLogic"
-o 3
-suid 29,0
-)
-)
-uid 413,0
-)
-*16 (LogPort
-port (LogicalPort
-lang 11
-decl (Decl
-n "Mode_fct"
-t "unsigned"
-b "(2 DOWNTO 0)"
-o 9
-suid 30,0
-)
-)
-uid 415,0
-)
-*17 (LogPort
-port (LogicalPort
-m 1
-decl (Decl
-n "position"
-t "unsigned"
-b "(15 DOWNTO 0)"
-o 1
-suid 31,0
-)
-)
-uid 417,0
-=======
 n "encoderIn"
 t "std_ulogic"
 o 2
@@ -157,7 +101,6 @@ suid 10,0
 )
 )
 uid 250,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *17 (LogPort
 port (LogicalPort
@@ -165,88 +108,30 @@ lang 11
 decl (Decl
 n "reset"
 t "std_ulogic"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-o 8
-suid 32,0
-)
-)
-uid 419,0
-)
-*19 (LogPort
-port (LogicalPort
-lang 11
-m 1
-decl (Decl
-n "rst"
-t "std_uLogic"
-o 2
-suid 33,0
-)
-)
-uid 421,0
-)
-*20 (LogPort
-port (LogicalPort
-m 1
-decl (Decl
-n "sensor1"
-t "std_uLogic"
-o 6
-suid 34,0
-)
-)
-uid 423,0
-)
-*21 (LogPort
-port (LogicalPort
-m 1
-decl (Decl
-n "sensor2"
-t "std_uLogic"
-o 5
-suid 35,0
-)
-)
-uid 425,0
-=======
 o 3
 suid 11,0
 )
 )
 uid 252,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *18 (LogPort
 port (LogicalPort
 lang 11
-m 1
 decl (Decl
 n "reset_pos"
 t "std_ulogic"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-o 7
-suid 36,0
-)
-)
-uid 427,0
-=======
 o 4
 suid 12,0
 )
 )
 uid 323,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 ]
 )
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 129,0
-=======
 uid 66,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 optionalChildren [
 *19 (Sheet
 sheetRow (SheetRow
@@ -270,106 +155,42 @@ litem &1
 pos 5
 dimension 20
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 131,0
-=======
 uid 68,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 optionalChildren [
 *21 (MRCItem
 litem &2
 pos 0
 dimension 20
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 132,0
-=======
 uid 69,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *22 (MRCItem
 litem &3
 pos 1
 dimension 23
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 133,0
-=======
 uid 70,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *23 (MRCItem
 litem &4
 pos 2
 hidden 1
 dimension 20
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 134,0
-=======
 uid 71,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *24 (MRCItem
 litem &14
 pos 0
 dimension 20
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 412,0
-=======
 uid 247,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *25 (MRCItem
 litem &15
 pos 1
 dimension 20
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 414,0
-=======
 uid 249,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *26 (MRCItem
 litem &16
 pos 2
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-dimension 20
-uid 416,0
-)
-*31 (MRCItem
-litem &17
-pos 3
-dimension 20
-uid 418,0
-)
-*32 (MRCItem
-litem &18
-pos 4
-dimension 20
-uid 420,0
-)
-*33 (MRCItem
-litem &19
-pos 5
-dimension 20
-uid 422,0
-)
-*34 (MRCItem
-litem &20
-pos 6
-dimension 20
-uid 424,0
-)
-*35 (MRCItem
-litem &21
-pos 7
-dimension 20
-uid 426,0
-)
-*36 (MRCItem
-litem &22
-pos 8
-dimension 20
-uid 428,0
-=======
 dimension 20
 uid 251,0
 )
@@ -384,7 +205,6 @@ litem &18
 pos 4
 dimension 20
 uid 324,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 ]
 )
@@ -395,122 +215,74 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 135,0
-=======
 uid 72,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 optionalChildren [
 *29 (MRCItem
 litem &5
 pos 0
 dimension 20
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 136,0
-=======
 uid 73,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *30 (MRCItem
 litem &7
 pos 1
 dimension 50
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 137,0
-=======
 uid 74,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *31 (MRCItem
 litem &8
 pos 2
 dimension 100
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 138,0
-=======
 uid 75,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *32 (MRCItem
 litem &9
 pos 3
 dimension 50
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 139,0
-=======
 uid 76,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *33 (MRCItem
 litem &10
 pos 4
 dimension 100
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 140,0
-=======
 uid 77,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *34 (MRCItem
 litem &11
 pos 5
 dimension 100
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 141,0
-=======
 uid 78,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *35 (MRCItem
 litem &12
 pos 6
 dimension 50
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 142,0
-=======
 uid 79,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *36 (MRCItem
 litem &13
 pos 7
 dimension 80
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 143,0
-=======
 uid 80,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 ]
 )
 fixedCol 4
 fixedRow 2
 name "Ports"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 130,0
-=======
 uid 67,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 vaOverrides [
 ]
 )
 ]
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 115,0
-=======
 uid 52,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 genericsCommonDM (CommonDM
 ldm (LogicalDM
 emptyRow *37 (LEmptyRow
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 145,0
-=======
 uid 82,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 optionalChildren [
 *38 (RefLabelRowHdr
 )
@@ -547,11 +319,7 @@ tm "GenericEolColHdrMgr"
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 157,0
-=======
 uid 94,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 optionalChildren [
 *49 (Sheet
 sheetRow (SheetRow
@@ -575,42 +343,26 @@ litem &37
 pos 0
 dimension 20
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 159,0
-=======
 uid 96,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 optionalChildren [
 *51 (MRCItem
 litem &38
 pos 0
 dimension 20
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 160,0
-=======
 uid 97,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *52 (MRCItem
 litem &39
 pos 1
 dimension 23
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 161,0
-=======
 uid 98,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *53 (MRCItem
 litem &40
 pos 2
 hidden 1
 dimension 20
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 162,0
-=======
 uid 99,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 ]
 )
@@ -621,127 +373,68 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 163,0
-=======
 uid 100,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 optionalChildren [
 *54 (MRCItem
 litem &41
 pos 0
 dimension 20
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 164,0
-=======
 uid 101,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *55 (MRCItem
 litem &43
 pos 1
 dimension 50
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 165,0
-=======
 uid 102,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *56 (MRCItem
 litem &44
 pos 2
 dimension 100
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 166,0
-=======
 uid 103,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *57 (MRCItem
 litem &45
 pos 3
 dimension 100
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 167,0
-=======
 uid 104,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *58 (MRCItem
 litem &46
 pos 4
 dimension 50
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 168,0
-=======
 uid 105,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *59 (MRCItem
 litem &47
 pos 5
 dimension 50
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 169,0
-=======
 uid 106,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 *60 (MRCItem
 litem &48
 pos 6
 dimension 80
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 170,0
-=======
 uid 107,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 ]
 )
 fixedCol 3
 fixedRow 2
 name "Ports"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 158,0
-=======
 uid 95,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 vaOverrides [
 ]
 )
 ]
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 144,0
-=======
 uid 81,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 type 1
 )
 VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hdl"
-)
-(vvPair
-variable "HDSDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds"
-)
-(vvPair
-variable "SideDataDesignDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\@cursor@master_tester\\interface.info"
-)
-(vvPair
-variable "SideDataUserDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\@cursor@master_tester\\interface.user"
-)
-(vvPair
-variable "SourceDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds"
-=======
 value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
@@ -759,7 +452,6 @@ value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\encoder_co
 (vvPair
 variable "SourceDir"
 value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 (vvPair
 variable "appl"
@@ -779,19 +471,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\@cursor@master_tester"
-)
-(vvPair
-variable "d_logical"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\CursorMaster_tester"
-=======
 value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\encoder_counter"
 )
 (vvPair
 variable "d_logical"
 value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\encoder_counter"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 (vvPair
 variable "date"
@@ -811,11 +495,7 @@ value "06"
 )
 (vvPair
 variable "entity_name"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-value "CursorMaster_tester"
-=======
 value "encoder_counter"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 (vvPair
 variable "ext"
@@ -851,11 +531,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-value "15:09:56"
-=======
 value "14:19:13"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 (vvPair
 variable "group"
@@ -871,11 +547,11 @@ value "VHDL"
 )
 (vvPair
 variable "library"
-value "Cursor_test"
+value "Cursor"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/Cursor_test/work"
+value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
@@ -883,11 +559,7 @@ value "12"
 )
 (vvPair
 variable "module_name"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-value "CursorMaster_tester"
-=======
 value "encoder_counter"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 (vvPair
 variable "month"
@@ -899,19 +571,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\@cursor@master_tester\\interface"
-)
-(vvPair
-variable "p_logical"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\CursorMaster_tester\\interface"
-=======
 value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\encoder_counter\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
 value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\encoder_counter\\symbol.sb"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 (vvPair
 variable "package_name"
@@ -939,19 +603,11 @@ value "symbol"
 )
 (vvPair
 variable "time"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-value "15:09:56"
-)
-(vvPair
-variable "unit"
-value "CursorMaster_tester"
-=======
 value "14:19:13"
 )
 (vvPair
 variable "unit"
 value "encoder_counter"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 (vvPair
 variable "user"
@@ -976,58 +632,28 @@ value "21"
 ]
 )
 LanguageMgr "Vhdl2008LangMgr"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 114,0
-=======
 uid 51,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 optionalChildren [
 *61 (SymbolBody
 uid 8,0
 optionalChildren [
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-*70 (CptPort
-uid 366,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 367,0
-=======
 *62 (CptPort
 uid 226,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 227,0
 ro 90
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-xt "36625,5250,37375,6000"
-)
-tg (CPTG
-uid 368,0
-=======
 xt "14250,12625,15000,13375"
 )
 tg (CPTG
 uid 228,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 369,0
-ro 270
-va (VaSet
-font "Verdana,12,0"
-)
-xt "36300,7000,37700,14600"
-st "BusBouton"
-ju 2
-blo "37500,7000"
-=======
 uid 229,0
 va (VaSet
 font "Verdana,12,0"
@@ -1035,47 +661,21 @@ font "Verdana,12,0"
 xt "16000,12300,19800,13700"
 st "clock"
 blo "16000,13500"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 370,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,4000,68500,4800"
-st "BusBouton    : OUT    unsigned (3 DOWNTO 0) ;
-=======
 uid 230,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,61500,3200"
 st "clock     : IN     std_ulogic  ;
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 "
 )
 thePort (LogicalPort
 lang 11
-m 1
 decl (Decl
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-n "BusBouton"
-t "unsigned"
-b "(3 DOWNTO 0)"
-o 4
-suid 28,0
-)
-)
-)
-*71 (CptPort
-uid 371,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 372,0
-=======
 n "clock"
 t "std_ulogic"
 o 1
@@ -1089,36 +689,17 @@ ps "OnEdgeStrategy"
 shape (Triangle
 uid 232,0
 ro 90
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-xt "38625,5250,39375,6000"
-)
-tg (CPTG
-uid 373,0
-=======
 xt "14250,8625,15000,9375"
 )
 tg (CPTG
 uid 233,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 374,0
-ro 270
-va (VaSet
-font "Verdana,12,0"
-)
-xt "38300,7000,39700,9400"
-st "clk"
-ju 2
-blo "39500,7000"
-=======
 uid 234,0
 va (VaSet
 font "Verdana,12,0"
@@ -1126,47 +707,21 @@ font "Verdana,12,0"
 xt "16000,8300,23200,9700"
 st "encoderIn"
 blo "16000,9500"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 375,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,5600,63000,6400"
-st "clk          : OUT    std_uLogic  ;
-=======
 uid 235,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,61500,4000"
 st "encoderIn : IN     std_ulogic  ;
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 "
 )
 thePort (LogicalPort
 lang 11
-m 1
 decl (Decl
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-n "clk"
-t "std_uLogic"
-o 3
-suid 29,0
-)
-)
-)
-*72 (CptPort
-uid 376,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 377,0
-ro 180
-=======
 n "encoderIn"
 t "std_ulogic"
 o 2
@@ -1180,126 +735,10 @@ ps "OnEdgeStrategy"
 shape (Triangle
 uid 237,0
 ro 90
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-xt "68625,5250,69375,6000"
-)
-tg (CPTG
-uid 378,0
-ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
-f (Text
-uid 379,0
-ro 270
-va (VaSet
-font "Verdana,12,0"
-)
-xt "68300,7000,69700,13500"
-st "Mode_fct"
-ju 2
-blo "69500,7000"
-tm "CptPortNameMgr"
-)
-)
-dt (MLText
-uid 380,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,2400,68500,3200"
-st "Mode_fct     : IN     unsigned (2 DOWNTO 0) ;
-"
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "Mode_fct"
-t "unsigned"
-b "(2 DOWNTO 0)"
-o 9
-suid 30,0
-)
-)
-)
-*73 (CptPort
-uid 381,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 382,0
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "30625,5250,31375,6000"
-)
-tg (CPTG
-uid 383,0
-ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
-f (Text
-uid 384,0
-ro 270
-va (VaSet
-font "Verdana,12,0"
-)
-xt "30300,7000,31700,12800"
-st "position"
-ju 2
-blo "31500,7000"
-tm "CptPortNameMgr"
-)
-)
-dt (MLText
-uid 385,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,6400,69000,7200"
-st "position     : OUT    unsigned (15 DOWNTO 0) ;
-"
-)
-thePort (LogicalPort
-m 1
-decl (Decl
-n "position"
-t "unsigned"
-b "(15 DOWNTO 0)"
-o 1
-suid 31,0
-)
-)
-)
-*74 (CptPort
-uid 386,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 387,0
-ro 180
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "72625,5250,73375,6000"
-)
-tg (CPTG
-uid 388,0
-ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
-f (Text
-uid 389,0
-ro 270
-va (VaSet
-font "Verdana,12,0"
-)
-xt "72300,7000,73700,14200"
-st "reset_pos"
-ju 2
-blo "73500,7000"
-=======
 xt "25000,10625,25750,11375"
 )
 tg (CPTG
@@ -1315,131 +754,10 @@ xt "18200,10300,24000,11700"
 st "position"
 ju 2
 blo "24000,11500"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 390,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,3200,63000,4000"
-st "reset_pos    : IN     std_ulogic  ;
-"
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "reset_pos"
-t "std_ulogic"
-o 8
-suid 32,0
-)
-)
-)
-*75 (CptPort
-uid 391,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 392,0
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "40625,5250,41375,6000"
-)
-tg (CPTG
-uid 393,0
-ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
-f (Text
-uid 394,0
-ro 270
-va (VaSet
-font "Verdana,12,0"
-)
-xt "40300,7000,41700,9500"
-st "rst"
-ju 2
-blo "41500,7000"
-tm "CptPortNameMgr"
-)
-)
-dt (MLText
-uid 395,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,7200,63000,8000"
-st "rst          : OUT    std_uLogic  ;
-"
-)
-thePort (LogicalPort
-lang 11
-m 1
-decl (Decl
-n "rst"
-t "std_uLogic"
-o 2
-suid 33,0
-)
-)
-)
-*76 (CptPort
-uid 396,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 397,0
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "32625,5250,33375,6000"
-)
-tg (CPTG
-uid 398,0
-ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
-f (Text
-uid 399,0
-ro 270
-va (VaSet
-font "Verdana,12,0"
-)
-xt "32300,7000,33700,12900"
-st "sensor1"
-ju 2
-blo "33500,7000"
-tm "CptPortNameMgr"
-)
-)
-dt (MLText
-uid 400,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,8000,63000,8800"
-st "sensor1      : OUT    std_uLogic  ;
-"
-)
-thePort (LogicalPort
-m 1
-decl (Decl
-n "sensor1"
-t "std_uLogic"
-o 6
-suid 34,0
-)
-)
-)
-*77 (CptPort
-uid 401,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 402,0
-=======
 uid 240,0
 va (VaSet
 font "Courier New,8,0"
@@ -1465,36 +783,17 @@ ps "OnEdgeStrategy"
 shape (Triangle
 uid 242,0
 ro 90
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-xt "34625,5250,35375,6000"
-)
-tg (CPTG
-uid 403,0
-=======
 xt "14250,14625,15000,15375"
 )
 tg (CPTG
 uid 243,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 404,0
-ro 270
-va (VaSet
-font "Verdana,12,0"
-)
-xt "34300,7000,35700,12900"
-st "sensor2"
-ju 2
-blo "35500,7000"
-=======
 uid 244,0
 va (VaSet
 font "Verdana,12,0"
@@ -1502,36 +801,10 @@ font "Verdana,12,0"
 xt "16000,14300,20100,15700"
 st "reset"
 blo "16000,15500"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 405,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,8800,62000,9600"
-st "sensor2      : OUT    std_uLogic 
-"
-)
-thePort (LogicalPort
-m 1
-decl (Decl
-n "sensor2"
-t "std_uLogic"
-o 5
-suid 35,0
-)
-)
-)
-*78 (CptPort
-uid 406,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 407,0
-=======
 uid 245,0
 va (VaSet
 font "Courier New,8,0"
@@ -1556,36 +829,17 @@ ps "OnEdgeStrategy"
 shape (Triangle
 uid 326,0
 ro 180
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-xt "49625,5250,50375,6000"
-)
-tg (CPTG
-uid 408,0
-=======
 xt "19625,5250,20375,6000"
 )
 tg (CPTG
 uid 327,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 409,0
-ro 270
-va (VaSet
-font "Verdana,12,0"
-)
-xt "49300,7000,50700,17700"
-st "STOP_Acc_dec"
-ju 2
-blo "50500,7000"
-=======
 uid 328,0
 va (VaSet
 font "Verdana,12,0"
@@ -1593,41 +847,25 @@ font "Verdana,12,0"
 xt "17000,6000,24200,7400"
 st "reset_pos"
 blo "17000,7200"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-uid 410,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,4800,63000,5600"
-st "STOP_Acc_dec : OUT    std_ulogic  ;
-=======
 uid 329,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,61500,5600"
 st "reset_pos : IN     std_ulogic  ;
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 "
 )
 thePort (LogicalPort
 lang 11
-m 1
 decl (Decl
 n "reset_pos"
 t "std_ulogic"
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-o 7
-suid 36,0
-=======
 o 4
 suid 12,0
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 )
 )
@@ -1640,12 +878,9 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-xt "15000,6000,79000,14000"
-=======
 xt "15000,6000,25000,17000"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
+oxt "15000,6000,23000,16000"
 biTextGroup (BiTextGroup
 uid 10,0
 ps "CenterOffsetStrategy"
@@ -1655,30 +890,18 @@ uid 11,0
 va (VaSet
 font "Verdana,9,1"
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-xt "41300,8800,48300,10000"
-st "Cursor_test"
-blo "41300,9800"
-=======
 xt "15250,16800,18950,18000"
 st "Cursor"
 blo "15250,17800"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 second (Text
 uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-xt "41300,10000,52700,11200"
-st "CursorMaster_tester"
-blo "41300,11000"
-=======
 xt "15250,18000,24750,19200"
 st "encoder_counter"
 blo "15250,19000"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
 )
 gi *67 (GenericInterface
@@ -1691,11 +914,7 @@ uid 15,0
 va (VaSet
 font "Courier New,8,0"
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-xt "17500,6000,29000,6800"
-=======
 xt "-10500,7000,1000,7800"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -2022,7 +1241,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,47000,52200,48000"
+xt "36200,47000,48300,48000"
 st "
 %library/%unit/%view
 "
@@ -2168,9 +1387,9 @@ tm "PanelText"
 )
 )
 parentGraphicsRef (HdmGraphicsRef
-libraryName "Cursor_test"
-entityName "FSMMaster_tb"
-viewName "struct.bd"
+libraryName "Cursor"
+entityName "cursorCircuit"
+viewName "studentVersion.bd"
 )
 defaultSymbolBody (SymbolBody
 shape (Rectangle
@@ -2361,13 +1580,8 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-<<<<<<< HEAD:Cursor_test/hds/@cursor@master_tester/interface
-lastUid 428,0
-activeModelName "Symbol:CDM"
-=======
 lastUid 398,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"
->>>>>>> master:Cursor/hds/encoder_counter/symbol.sb
 )
