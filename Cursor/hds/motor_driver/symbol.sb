@@ -500,19 +500,19 @@ value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driv
 )
 (vvPair
 variable "date"
-value "30.11.2021"
+value "10.12.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "30"
+value "10"
 )
 (vvPair
 variable "entity_name"
@@ -540,7 +540,7 @@ value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "30.11.2021"
+value "10.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -552,7 +552,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:49:18"
+value "08:50:59"
 )
 (vvPair
 variable "group"
@@ -576,7 +576,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "11"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -584,11 +584,11 @@ value "motor_driver"
 )
 (vvPair
 variable "month"
-value "nov."
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "novembre"
+value "décembre"
 )
 (vvPair
 variable "p"
@@ -624,7 +624,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "09:49:18"
+value "08:50:59"
 )
 (vvPair
 variable "unit"
@@ -1646,7 +1646,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 287,0
+lastUid 379,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"
