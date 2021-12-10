@@ -1640,9 +1640,13 @@ second "concatenated"
 defaultCategoryTemplates [
 1
 "architecture.vhd"
+2
+"entity.vhd"
 ]
 defaultCategoryTemplatesPrefs [
 1
+0
+2
 0
 ]
 tasksOrder [
