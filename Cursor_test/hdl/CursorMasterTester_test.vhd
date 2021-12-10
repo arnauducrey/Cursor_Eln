@@ -19,13 +19,30 @@ rst <= '1', '0' after 4*clockPeriod;
   clk <= transport clock_int after 9*clockPeriod/10;
   
 --sensor1 <= '0';
---BusBoutton <= "0000";
+--BusBouton <= "0000";
 sensor2 <= '0';
-BusBoutton <= "1000" after 10 us,
-			 "0000" after 20 us;
+BusBouton <= "0000",
+			"1000" after 10 us,
+			 "0000" after 20 us,
+			 "0010" after 40 us,
+			 "0000" after 45 us,
+			 "0100" after 100 us,
+			 "0000" after 105 us;
 				
-sensor1 <= '1' after 25 us,
+sensor1 <= 	'0',
+			'1' after 25 us,
 			'0' after 30 us;
+			
+STOP_Acc_dec <= '0',
+				'1' after 60 us,
+				'0' after 65 us,
+				'1' after 80 us,
+				'0' after 90 us,
+				'1' after 110 us,
+				'0' after 115 us;
+
+position <= to_unsigned (0,16),
+			to_unsigned (28572,16) after 70 us;
 
 
 END ARCHITECTURE test;

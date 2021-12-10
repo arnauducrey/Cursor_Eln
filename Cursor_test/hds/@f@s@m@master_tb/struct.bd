@@ -93,19 +93,19 @@ value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\FS
 )
 (vvPair
 variable "date"
-value "07.12.2021"
+value "10.12.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "07"
+value "10"
 )
 (vvPair
 variable "entity_name"
@@ -133,7 +133,7 @@ value "Arnaud"
 )
 (vvPair
 variable "graphical_source_date"
-value "07.12.2021"
+value "10.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -145,7 +145,7 @@ value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:40:39"
+value "09:34:49"
 )
 (vvPair
 variable "group"
@@ -217,7 +217,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "09:40:39"
+value "09:34:49"
 )
 (vvPair
 variable "unit"
@@ -1373,6 +1373,7 @@ pts [
 )
 start &34
 end &22
+es 0
 sat 2
 eat 32
 sty 1
@@ -1552,6 +1553,7 @@ shape (OrthoPolyLine
 uid 232,0
 va (VaSet
 vasetType 3
+lineWidth 2
 )
 xt "55750,27000,63000,39000"
 pts [
@@ -1564,6 +1566,7 @@ start &24
 end &34
 sat 32
 eat 1
+sty 1
 stc 0
 st 0
 si 0
@@ -1696,7 +1699,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-8,-8,1376,880"
-viewArea "-2000,1344,88168,60624"
+viewArea "-2047,3526,89277,61354"
 cachedDiagramExtent "0,0,83000,59000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1720,7 +1723,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 857,0
+lastUid 908,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2760,7 +2763,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 9,0
+suid 10,0
 usingSuid 1
 emptyRow *78 (LEmptyRow
 )
