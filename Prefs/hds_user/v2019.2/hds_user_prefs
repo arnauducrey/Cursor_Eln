@@ -2717,7 +2717,7 @@ second ""
 )
 (pair
 first "hierLevel"
-second "1"
+second "3"
 )
 (pair
 first "onPulldownMenu"
@@ -6372,7 +6372,7 @@ yPos 0
 width 1384
 height 888
 activeSidePanelTab 2
-activeLibraryTab 2
+activeLibraryTab 3
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 715

@@ -135,7 +135,7 @@ value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:21:42"
+value "13:56:49"
 )
 (vvPair
 variable "group"
@@ -207,7 +207,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "09:21:42"
+value "13:56:49"
 )
 (vvPair
 variable "unit"
@@ -5810,7 +5810,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-8,-8,1376,880"
-viewArea "-85521,1257,84479,108904"
+viewArea "-181288,-60858,88301,109851"
 cachedDiagramExtent "-100745,-1000,166113,163576"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -6103,10 +6103,10 @@ uid 30,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "45400,200,72900,2600"
-st "SIGNAL     MODE    DEFAULT  RESET  SCHEME COMMENT  
-Mode_fct   OUT                     COMB            
-reset_pos  OUT     '0'             COMB            
+xt "45400,200,76900,2600"
+st "SIGNAL     MODE    DEFAULT          RESET  SCHEME COMMENT  
+Mode_fct   OUT     (others => '1')         COMB            
+reset_pos  OUT     '0'                     COMB            
 "
 tm "SmSignalsGenStatusTextMgr"
 )
@@ -6219,7 +6219,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 1093,0
+lastUid 1122,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *91 (LEmptyRow
@@ -6344,6 +6344,7 @@ o 8
 )
 uid 166,0
 scheme 0
+defVal "(others => '1')"
 )
 *116 (LeafLogPort
 port (LogicalPort

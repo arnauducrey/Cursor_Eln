@@ -20,7 +20,8 @@ rst <= '1', '0' after 4*clockPeriod;
   
 --sensor1 <= '0';
 --BusBouton <= "0000";
-sensor2 <= '0';
+sensor2 <= '0',
+			'1' after 260 us;
 BusBouton <= "0000",
 			"1000" after 10 us,
 			 "0000" after 20 us,
@@ -34,7 +35,8 @@ BusBouton <= "0000",
 			 "0000" after 165 us,
 			 "0010" after 200 us,
 			 "0000" after 205 us,
-			 "1000" after 240 us;
+			 "1000" after 240 us,
+			 "0000" after 250 us;
 				
 sensor1 <= 	'0',
 			'1' after 25 us,
