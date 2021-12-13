@@ -6379,10 +6379,10 @@ activeSidePanelTab 2
 activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
-componentBrowserXpos 715
-componentBrowserYpos 147
-componentBrowserWidth 300
-componentBrowserHeight 340
+componentBrowserXpos 536
+componentBrowserYpos 96
+componentBrowserWidth 534
+componentBrowserHeight 503
 componentBrowserLibraryNames [
 "Board"
 "gates"
