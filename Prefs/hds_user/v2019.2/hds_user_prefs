@@ -6295,7 +6295,7 @@ SplitterClientPrefs [
 (SplitterPreference
 hidden 0
 expand 0
-size 180
+size 181
 )
 ]
 displayHierarchy 0
@@ -6307,12 +6307,10 @@ activeSidePanelTab 2
 activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
-
 componentBrowserXpos 207
 componentBrowserYpos 155
 componentBrowserWidth 300
 componentBrowserHeight 340
-
 componentBrowserLibraryNames [
 "Board"
 "gates"
