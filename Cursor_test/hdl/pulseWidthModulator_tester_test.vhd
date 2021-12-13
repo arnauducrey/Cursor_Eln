@@ -22,7 +22,9 @@ BEGIN
 	
 	enable <= '0', '1' after 1 ms;
 	
-	upDown <= '0';
+	restart <= '0', '1' after 2 ms, '0' after 3 ms;
+	
+	upDown <= '1', '0' after 3 ms;
 
 END ARCHITECTURE test;
 
