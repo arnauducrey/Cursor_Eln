@@ -22,7 +22,7 @@ BEGIN
 	
 	enable <= '0', '1' after 1 ms;
 	
-	restart <= '0', '1' after 2 ms, '0' after 3 ms;
+	restart <= '0', '1' after 2 ms, '0' after 3 ms, '1' after 4 ms, '0' after  4500 us;
 	
 	upDown <= '1', '0' after 3 ms;
 
