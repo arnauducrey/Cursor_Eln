@@ -6,14 +6,17 @@ dmPackageRefs [
 (DmPackageRef
 library "ieee"
 unitName "std_logic_1164"
+itemName "ALL"
 )
 (DmPackageRef
 library "ieee"
 unitName "numeric_std"
+itemName "ALL"
 )
 (DmPackageRef
 library "gates"
 unitName "gates"
+itemName "ALL"
 )
 ]
 libraryRefs [
@@ -26,7 +29,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 8,0
+suid 18,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -68,78 +71,78 @@ tm "EolColHdrMgr"
 *14 (LogPort
 port (LogicalPort
 lang 11
+m 1
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 1
-suid 1,0
+o 4
+suid 13,0
 )
 )
-uid 81,0
+uid 268,0
 )
 *15 (LogPort
 port (LogicalPort
 lang 11
 decl (Decl
-n "mode_fct"
-t "unsigned"
-b "(2 DOWNTO 0)"
-o 2
-suid 2,0
+n "In1"
+t "std_ulogic"
+o 1
+suid 14,0
 )
 )
-uid 83,0
+uid 270,0
 )
 *16 (LogPort
 port (LogicalPort
 lang 11
-m 1
 decl (Decl
-n "In1"
+n "In2"
 t "std_ulogic"
-o 4
-suid 3,0
+o 2
+suid 15,0
 )
 )
-uid 85,0
+uid 272,0
 )
 *17 (LogPort
 port (LogicalPort
 lang 11
 m 1
 decl (Decl
-n "In2"
-t "std_ulogic"
+n "mode_fct"
+t "unsigned"
+b "(2 DOWNTO 0)"
 o 5
-suid 4,0
+suid 16,0
 )
 )
-uid 87,0
+uid 274,0
 )
 *18 (LogPort
 port (LogicalPort
 lang 11
-m 1
 decl (Decl
 n "motorEn"
 t "std_ulogic"
-o 6
-suid 5,0
+o 3
+suid 17,0
 )
 )
-uid 89,0
+uid 276,0
 )
 *19 (LogPort
 port (LogicalPort
 lang 11
+m 1
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 3
-suid 6,0
+o 6
+suid 18,0
 )
 )
-uid 91,0
+uid 278,0
 )
 ]
 )
@@ -167,7 +170,7 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *21 (MRCItem
 litem &1
-pos 7
+pos 3
 dimension 20
 )
 uid 110,0
@@ -195,37 +198,37 @@ uid 113,0
 litem &14
 pos 0
 dimension 20
-uid 82,0
+uid 269,0
 )
 *26 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 84,0
+uid 271,0
 )
 *27 (MRCItem
 litem &16
-pos 3
+pos 2
 dimension 20
-uid 86,0
+uid 273,0
 )
 *28 (MRCItem
 litem &17
-pos 4
+pos 3
 dimension 20
-uid 88,0
+uid 275,0
 )
 *29 (MRCItem
 litem &18
-pos 5
+pos 4
 dimension 20
-uid 90,0
+uid 277,0
 )
 *30 (MRCItem
 litem &19
-pos 2
+pos 5
 dimension 20
-uid 92,0
+uid 279,0
 )
 ]
 )
@@ -361,7 +364,7 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *52 (MRCItem
 litem &39
-pos 0
+pos 3
 dimension 20
 )
 uid 138,0
@@ -456,23 +459,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\symbol.sb.info"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\motor_driver_tester\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\symbol.sb.user"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\motor_driver_tester\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -480,7 +483,7 @@ value "HDL Designer"
 )
 (vvPair
 variable "arch_name"
-value "symbol"
+value "interface"
 )
 (vvPair
 variable "concat_file"
@@ -492,11 +495,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\motor_driver_tester"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\motor_driver_tester"
 )
 (vvPair
 variable "date"
@@ -516,7 +519,7 @@ value "13"
 )
 (vvPair
 variable "entity_name"
-value "motor_driver"
+value "motor_driver_tester"
 )
 (vvPair
 variable "ext"
@@ -524,15 +527,15 @@ value "<TBD>"
 )
 (vvPair
 variable "f"
-value "symbol.sb"
+value "interface"
 )
 (vvPair
 variable "f_logical"
-value "symbol.sb"
+value "interface"
 )
 (vvPair
 variable "f_noext"
-value "symbol"
+value "interface"
 )
 (vvPair
 variable "graphical_source_author"
@@ -552,7 +555,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:33:22"
+value "15:16:01"
 )
 (vvPair
 variable "group"
@@ -568,11 +571,11 @@ value "VHDL"
 )
 (vvPair
 variable "library"
-value "Cursor"
+value "Cursor_test"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/Cursor/work"
+value "$SCRATCH_DIR/Cursor_test/work"
 )
 (vvPair
 variable "mm"
@@ -580,7 +583,7 @@ value "12"
 )
 (vvPair
 variable "module_name"
-value "motor_driver"
+value "motor_driver_tester"
 )
 (vvPair
 variable "month"
@@ -592,11 +595,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\symbol.sb"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\motor_driver_tester\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\symbol.sb"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\motor_driver_tester\\interface"
 )
 (vvPair
 variable "package_name"
@@ -612,23 +615,23 @@ value "HDL Designer Series"
 )
 (vvPair
 variable "this_ext"
-value "sb"
+value "<TBD>"
 )
 (vvPair
 variable "this_file"
-value "symbol"
+value "interface"
 )
 (vvPair
 variable "this_file_logical"
-value "symbol"
+value "interface"
 )
 (vvPair
 variable "time"
-value "14:33:22"
+value "15:16:01"
 )
 (vvPair
 variable "unit"
-value "motor_driver"
+value "motor_driver_tester"
 )
 (vvPair
 variable "user"
@@ -640,7 +643,7 @@ value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
-value "symbol"
+value "interface"
 )
 (vvPair
 variable "year"
@@ -659,285 +662,291 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *64 (CptPort
-uid 51,0
+uid 238,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 52,0
-ro 90
+uid 239,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,15625,15000,16375"
+xt "24625,5250,25375,6000"
 )
 tg (CPTG
-uid 53,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 54,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "16000,15300,19800,16700"
-st "clock"
-blo "16000,16500"
-tm "CptPortNameMgr"
-)
-)
-dt (MLText
-uid 55,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,2400,61000,3200"
-st "clock    : IN     std_ulogic  ;
-"
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "clock"
-t "std_ulogic"
-o 1
-suid 1,0
-)
-)
-)
-*65 (CptPort
-uid 56,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 57,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "14250,11625,15000,12375"
-)
-tg (CPTG
-uid 58,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 59,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "16000,11300,22600,12700"
-st "mode_fct"
-blo "16000,12500"
-tm "CptPortNameMgr"
-)
-)
-dt (MLText
-uid 60,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,3200,66500,4000"
-st "mode_fct : IN     unsigned (2 DOWNTO 0) ;
-"
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "mode_fct"
-t "unsigned"
-b "(2 DOWNTO 0)"
-o 2
-suid 2,0
-)
-)
-)
-*66 (CptPort
-uid 61,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 62,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "34000,15625,34750,16375"
-)
-tg (CPTG
-uid 63,0
+uid 240,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 64,0
+uid 241,0
+ro 270
 va (VaSet
 font "Verdana,12,0"
 )
-xt "30100,15300,33000,16700"
-st "In1"
+xt "24300,7000,25700,10800"
+st "clock"
 ju 2
-blo "33000,16500"
+blo "25500,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 65,0
+uid 242,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,61000,5600"
-st "In1      : OUT    std_ulogic  ;
+st "clock    : OUT    std_ulogic  ;
 "
 )
 thePort (LogicalPort
 lang 11
 m 1
 decl (Decl
-n "In1"
+n "clock"
 t "std_ulogic"
 o 4
-suid 3,0
+suid 13,0
+)
+)
+)
+*65 (CptPort
+uid 243,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 244,0
+ro 180
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "68625,5250,69375,6000"
+)
+tg (CPTG
+uid 245,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 246,0
+ro 270
+va (VaSet
+font "Verdana,12,0"
+)
+xt "68300,7000,69700,9900"
+st "In1"
+ju 2
+blo "69500,7000"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 247,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,2400,61000,3200"
+st "In1      : IN     std_ulogic  ;
+"
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "In1"
+t "std_ulogic"
+o 1
+suid 14,0
+)
+)
+)
+*66 (CptPort
+uid 248,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 249,0
+ro 180
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "63625,5250,64375,6000"
+)
+tg (CPTG
+uid 250,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 251,0
+ro 270
+va (VaSet
+font "Verdana,12,0"
+)
+xt "63300,7000,64700,9900"
+st "In2"
+ju 2
+blo "64500,7000"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 252,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,3200,61000,4000"
+st "In2      : IN     std_ulogic  ;
+"
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "In2"
+t "std_ulogic"
+o 2
+suid 15,0
 )
 )
 )
 *67 (CptPort
-uid 66,0
+uid 253,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 67,0
-ro 90
+uid 254,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "34000,19625,34750,20375"
+xt "20625,5250,21375,6000"
 )
 tg (CPTG
-uid 68,0
+uid 255,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 69,0
+uid 256,0
+ro 270
 va (VaSet
 font "Verdana,12,0"
 )
-xt "30100,19300,33000,20700"
-st "In2"
+xt "20300,7000,21700,13600"
+st "mode_fct"
 ju 2
-blo "33000,20500"
+blo "21500,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 70,0
+uid 257,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,5600,61000,6400"
-st "In2      : OUT    std_ulogic  ;
+xt "44000,5600,66500,6400"
+st "mode_fct : OUT    unsigned (2 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
 lang 11
 m 1
 decl (Decl
-n "In2"
-t "std_ulogic"
+n "mode_fct"
+t "unsigned"
+b "(2 DOWNTO 0)"
 o 5
-suid 4,0
+suid 16,0
 )
 )
 )
 *68 (CptPort
-uid 71,0
+uid 258,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 72,0
-ro 90
+uid 259,0
+ro 180
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "34000,11625,34750,12375"
+xt "72625,5250,73375,6000"
 )
 tg (CPTG
-uid 73,0
+uid 260,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 74,0
+uid 261,0
+ro 270
 va (VaSet
 font "Verdana,12,0"
 )
-xt "26900,11300,33000,12700"
+xt "72300,7000,73700,13100"
 st "motorEn"
 ju 2
-blo "33000,12500"
+blo "73500,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 75,0
+uid 262,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,4000,61000,4800"
+st "motorEn  : IN     std_ulogic  ;
+"
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "motorEn"
+t "std_ulogic"
+o 3
+suid 17,0
+)
+)
+)
+*69 (CptPort
+uid 263,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 264,0
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "28625,5250,29375,6000"
+)
+tg (CPTG
+uid 265,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 266,0
+ro 270
+va (VaSet
+font "Verdana,12,0"
+)
+xt "28300,7000,29700,11100"
+st "reset"
+ju 2
+blo "29500,7000"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 267,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,60000,7200"
-st "motorEn  : OUT    std_ulogic 
+st "reset    : OUT    std_ulogic 
 "
 )
 thePort (LogicalPort
 lang 11
 m 1
 decl (Decl
-n "motorEn"
-t "std_ulogic"
-o 6
-suid 5,0
-)
-)
-)
-*69 (CptPort
-uid 76,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 77,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "14250,19625,15000,20375"
-)
-tg (CPTG
-uid 78,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 79,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "16000,19300,20100,20700"
-st "reset"
-blo "16000,20500"
-tm "CptPortNameMgr"
-)
-)
-dt (MLText
-uid 80,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,4000,61000,4800"
-st "reset    : IN     std_ulogic  ;
-"
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
 n "reset"
 t "std_ulogic"
-o 3
-suid 6,0
+o 6
+suid 18,0
 )
 )
 )
@@ -950,9 +959,9 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,9000,34000,23000"
+xt "15000,6000,79000,18000"
 )
-oxt "15000,6000,23000,16000"
+oxt "15000,6000,34000,20000"
 biTextGroup (BiTextGroup
 uid 10,0
 ps "CenterOffsetStrategy"
@@ -962,18 +971,18 @@ uid 11,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "15150,5800,18850,7000"
-st "Cursor"
-blo "15150,6800"
+xt "41300,10800,48300,12000"
+st "Cursor_test"
+blo "41300,11800"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "15150,7000,22850,8200"
-st "motor_driver"
-blo "15150,8000"
+xt "41300,12000,52700,13200"
+st "motor_driver_tester"
+blo "41300,13000"
 )
 )
 gi *70 (GenericInterface
@@ -986,7 +995,7 @@ uid 15,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-10500,9000,1000,9800"
+xt "17500,8000,29000,8800"
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -1313,7 +1322,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,47000,47100,48000"
+xt "36200,47000,51800,48000"
 st "
 %library/%unit/%view
 "
@@ -1368,21 +1377,20 @@ blo "0,1000"
 uid 50,0
 va (VaSet
 )
-xt "0,1200,17500,7200"
+xt "0,1200,17700,7200"
 st "LIBRARY ieee;
-  USE ieee.std_logic_1164.all;
-  USE ieee.numeric_std.all;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
 LIBRARY gates;
-USE gates.gates.all;"
+USE gates.gates.ALL;"
 tm "PackageList"
 )
 ]
 )
-windowSize "0,24,1537,864"
-viewArea "-13200,2500,48323,34648"
-cachedDiagramExtent "-10500,0,73000,49000"
-hasePageBreakOrigin 1
-pageBreakOrigin "-11000,0"
+windowSize "0,0,1015,690"
+viewArea "0,0,0,0"
+cachedDiagramExtent "0,0,0,0"
+pageBreakOrigin "0,0"
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -1459,9 +1467,9 @@ tm "PanelText"
 )
 )
 parentGraphicsRef (HdmGraphicsRef
-libraryName "Cursor"
-entityName "cursorCircuit"
-viewName "studentVersion.bd"
+libraryName "Cursor_test"
+entityName "motor_driver_testbench"
+viewName "struct.bd"
 )
 defaultSymbolBody (SymbolBody
 shape (Rectangle
@@ -1652,8 +1660,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 524,0
-okToSyncOnLoad 1
-OkToSyncGenericsOnLoad 1
+lastUid 279,0
 activeModelName "Symbol:CDM"
 )
