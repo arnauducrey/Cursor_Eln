@@ -145,7 +145,7 @@ value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:31:08"
+value "13:38:40"
 )
 (vvPair
 variable "group"
@@ -217,7 +217,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:31:08"
+value "13:38:40"
 )
 (vvPair
 variable "unit"
@@ -1607,8 +1607,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1376,880"
-viewArea "-2000,-14660,90480,46140"
+windowSize "0,0,1369,888"
+viewArea "-2000,3768,90421,65328"
 cachedDiagramExtent "0,0,83000,59000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1632,7 +1632,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 1073,0
+lastUid 1112,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
