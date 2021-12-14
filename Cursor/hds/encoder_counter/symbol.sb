@@ -479,19 +479,19 @@ value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\encoder_co
 )
 (vvPair
 variable "date"
-value "06.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "06"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -519,7 +519,7 @@ value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "06.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -531,7 +531,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:19:13"
+value "08:46:25"
 )
 (vvPair
 variable "group"
@@ -603,7 +603,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:19:13"
+value "08:46:25"
 )
 (vvPair
 variable "unit"
@@ -647,7 +647,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,12625,15000,13375"
+xt "14250,13625,15000,14375"
 )
 tg (CPTG
 uid 228,0
@@ -658,9 +658,9 @@ uid 229,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,12300,19800,13700"
+xt "16000,13300,19800,14700"
 st "clock"
-blo "16000,13500"
+blo "16000,14500"
 tm "CptPortNameMgr"
 )
 )
@@ -670,8 +670,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,61500,3200"
-st "clock     : IN     std_ulogic  ;
-"
+st "clock     : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -693,7 +692,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,8625,15000,9375"
+xt "14250,9625,15000,10375"
 )
 tg (CPTG
 uid 233,0
@@ -704,9 +703,9 @@ uid 234,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,8300,23200,9700"
+xt "16000,9300,23200,10700"
 st "encoderIn"
-blo "16000,9500"
+blo "16000,10500"
 tm "CptPortNameMgr"
 )
 )
@@ -716,8 +715,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,61500,4000"
-st "encoderIn : IN     std_ulogic  ;
-"
+st "encoderIn : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -739,7 +737,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "25000,10625,25750,11375"
+xt "27000,14625,27750,15375"
 )
 tg (CPTG
 uid 238,0
@@ -750,10 +748,10 @@ uid 239,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "18200,10300,24000,11700"
+xt "20200,14300,26000,15700"
 st "position"
 ju 2
-blo "24000,11500"
+blo "26000,15500"
 tm "CptPortNameMgr"
 )
 )
@@ -763,8 +761,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,66500,6400"
-st "position  : OUT    unsigned (15 DOWNTO 0)
-"
+st "position  : OUT    unsigned (15 DOWNTO 0)"
 )
 thePort (LogicalPort
 m 1
@@ -787,7 +784,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,14625,15000,15375"
+xt "14250,15625,15000,16375"
 )
 tg (CPTG
 uid 243,0
@@ -798,9 +795,9 @@ uid 244,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,14300,20100,15700"
+xt "16000,15300,20100,16700"
 st "reset"
-blo "16000,15500"
+blo "16000,16500"
 tm "CptPortNameMgr"
 )
 )
@@ -810,8 +807,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,61500,4800"
-st "reset     : IN     std_ulogic  ;
-"
+st "reset     : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -833,7 +829,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "19625,5250,20375,6000"
+xt "20625,5250,21375,6000"
 )
 tg (CPTG
 uid 327,0
@@ -844,9 +840,9 @@ uid 328,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "17000,6000,24200,7400"
+xt "18000,6000,25200,7400"
 st "reset_pos"
-blo "17000,7200"
+blo "18000,7200"
 tm "CptPortNameMgr"
 )
 )
@@ -856,8 +852,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,61500,5600"
-st "reset_pos : IN     std_ulogic  ;
-"
+st "reset_pos : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -878,7 +873,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,25000,17000"
+xt "15000,6000,27000,19000"
 )
 oxt "15000,6000,23000,16000"
 biTextGroup (BiTextGroup
@@ -890,18 +885,18 @@ uid 11,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "15250,16800,18950,18000"
+xt "15250,19800,18950,21000"
 st "Cursor"
-blo "15250,17800"
+blo "15250,20800"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "15250,18000,24750,19200"
+xt "15250,21000,24750,22200"
 st "encoder_counter"
-blo "15250,19000"
+blo "15250,22000"
 )
 )
 gi *67 (GenericInterface
@@ -1306,7 +1301,7 @@ tm "PackageList"
 )
 ]
 )
-windowSize "0,0,1537,840"
+windowSize "0,24,1537,864"
 viewArea "-5000,3300,34270,24660"
 cachedDiagramExtent "-10500,0,73000,49000"
 hasePageBreakOrigin 1
@@ -1580,7 +1575,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 398,0
+lastUid 421,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

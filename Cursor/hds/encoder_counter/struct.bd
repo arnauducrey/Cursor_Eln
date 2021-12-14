@@ -136,19 +136,19 @@ value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\encoder_co
 )
 (vvPair
 variable "date"
-value "06.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "06"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -176,7 +176,7 @@ value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "06.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -188,7 +188,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:19:13"
+value "08:46:25"
 )
 (vvPair
 variable "group"
@@ -260,7 +260,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:19:13"
+value "08:46:25"
 )
 (vvPair
 variable "unit"
@@ -1624,7 +1624,7 @@ uid 328,0
 decl (Decl
 n "in2"
 t "std_uLogic"
-o 8
+o 7
 suid 8,0
 )
 declText (MLText
@@ -1980,7 +1980,7 @@ uid 554,0
 decl (Decl
 n "rising_edge"
 t "std_ulogic"
-o 7
+o 8
 suid 13,0
 )
 declText (MLText
@@ -2624,7 +2624,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-17000,0"
-lastUid 619,0
+lastUid 650,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3770,7 +3770,7 @@ m 4
 decl (Decl
 n "in2"
 t "std_uLogic"
-o 8
+o 7
 suid 8,0
 )
 )
@@ -3794,7 +3794,7 @@ m 4
 decl (Decl
 n "rising_edge"
 t "std_ulogic"
-o 7
+o 8
 suid 13,0
 )
 )
