@@ -62,23 +62,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.info"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.user"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -98,11 +98,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\cursor@circuit"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursorCircuit"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\cursorCircuit"
 )
 (vvPair
 variable "date"
@@ -146,7 +146,7 @@ value "student@version"
 )
 (vvPair
 variable "graphical_source_author"
-value "robin"
+value "Arnaud"
 )
 (vvPair
 variable "graphical_source_date"
@@ -158,11 +158,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "DESKTOP-93FHAQ3"
+value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:46:35"
+value "09:18:58"
 )
 (vvPair
 variable "group"
@@ -170,7 +170,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "DESKTOP-93FHAQ3"
+value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "language"
@@ -218,11 +218,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursorCircuit\\studentVersion.bd"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\cursorCircuit\\studentVersion.bd"
 )
 (vvPair
 variable "package_name"
@@ -298,7 +298,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "08:46:35"
+value "09:18:58"
 )
 (vvPair
 variable "unit"
@@ -306,7 +306,7 @@ value "cursorCircuit"
 )
 (vvPair
 variable "user"
-value "robin"
+value "Arnaud"
 )
 (vvPair
 variable "version"
@@ -445,7 +445,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "125200,150400,141100,151600"
+xt "125200,150400,140000,151600"
 st "
 by %user on %dd %month %year
 "
@@ -2165,7 +2165,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "109250,30625,110000,31375"
+xt "109250,34625,110000,35375"
 )
 tg (CPTG
 uid 12952,0
@@ -2176,9 +2176,9 @@ uid 12953,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "111000,30300,114800,31700"
+xt "111000,34300,114800,35700"
 st "clock"
-blo "111000,31500"
+blo "111000,35500"
 )
 )
 thePort (LogicalPort
@@ -2201,7 +2201,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "109250,26625,110000,27375"
+xt "109250,30625,110000,31375"
 )
 tg (CPTG
 uid 12956,0
@@ -2212,9 +2212,9 @@ uid 12957,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "111000,26300,117600,27700"
+xt "111000,30300,117600,31700"
 st "mode_fct"
-blo "111000,27500"
+blo "111000,31500"
 )
 )
 thePort (LogicalPort
@@ -2238,7 +2238,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "129000,30625,129750,31375"
+xt "129000,34625,129750,35375"
 )
 tg (CPTG
 uid 12960,0
@@ -2249,10 +2249,10 @@ uid 12961,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "125100,30300,128000,31700"
+xt "125100,34300,128000,35700"
 st "In1"
 ju 2
-blo "128000,31500"
+blo "128000,35500"
 )
 )
 thePort (LogicalPort
@@ -2276,7 +2276,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "129000,34625,129750,35375"
+xt "129000,38625,129750,39375"
 )
 tg (CPTG
 uid 12964,0
@@ -2287,10 +2287,10 @@ uid 12965,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "125100,34300,128000,35700"
+xt "125100,38300,128000,39700"
 st "In2"
 ju 2
-blo "128000,35500"
+blo "128000,39500"
 )
 )
 thePort (LogicalPort
@@ -2314,7 +2314,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "129000,26625,129750,27375"
+xt "129000,30625,129750,31375"
 )
 tg (CPTG
 uid 12968,0
@@ -2325,10 +2325,10 @@ uid 12969,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "121900,26300,128000,27700"
+xt "121900,30300,128000,31700"
 st "motorEn"
 ju 2
-blo "128000,27500"
+blo "128000,31500"
 )
 )
 thePort (LogicalPort
@@ -2352,7 +2352,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "109250,34625,110000,35375"
+xt "109250,38625,110000,39375"
 )
 tg (CPTG
 uid 12972,0
@@ -2363,9 +2363,9 @@ uid 12973,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "111000,34300,115100,35700"
+xt "111000,38300,115100,39700"
 st "reset"
-blo "111000,35500"
+blo "111000,39500"
 )
 )
 thePort (LogicalPort
@@ -2387,7 +2387,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "110000,24000,129000,38000"
+xt "110000,28000,129000,42000"
 )
 oxt "15000,9000,34000,23000"
 ttg (MlTextGroup
@@ -2400,9 +2400,9 @@ uid 12977,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "110150,20800,113850,22000"
+xt "110150,24800,113850,26000"
 st "Cursor"
-blo "110150,21800"
+blo "110150,25800"
 tm "BdLibraryNameMgr"
 )
 *62 (Text
@@ -2410,9 +2410,9 @@ uid 12978,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "110150,22000,117850,23200"
+xt "110150,26000,117850,27200"
 st "motor_driver"
-blo "110150,23000"
+blo "110150,27000"
 tm "CptNameMgr"
 )
 *63 (Text
@@ -2420,9 +2420,9 @@ uid 12979,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "110150,23200,111850,24400"
+xt "110150,27200,111850,28400"
 st "I0"
-blo "110150,24200"
+blo "110150,28200"
 tm "InstanceNameMgr"
 )
 ]
@@ -2437,7 +2437,7 @@ uid 12982,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "84500,24000,84500,24000"
+xt "84500,28000,84500,28000"
 )
 header ""
 )
@@ -2463,7 +2463,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "75250,59625,76000,60375"
+xt "77250,41625,78000,42375"
 )
 tg (CPTG
 uid 13096,0
@@ -2474,9 +2474,9 @@ uid 13097,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "77000,59300,84600,60700"
+xt "79000,41300,86600,42700"
 st "BusBouton"
-blo "77000,60500"
+blo "79000,42500"
 )
 )
 thePort (LogicalPort
@@ -2500,7 +2500,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "94000,57625,94750,58375"
+xt "96000,39625,96750,40375"
 )
 tg (CPTG
 uid 13100,0
@@ -2511,10 +2511,10 @@ uid 13101,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "90600,57300,93000,58700"
+xt "92600,39300,95000,40700"
 st "clk"
 ju 2
-blo "93000,58500"
+blo "95000,40500"
 )
 )
 thePort (LogicalPort
@@ -2537,7 +2537,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "94000,50625,94750,51375"
+xt "96000,32625,96750,33375"
 )
 tg (CPTG
 uid 13104,0
@@ -2548,10 +2548,10 @@ uid 13105,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "86500,50300,93000,51700"
+xt "88500,32300,95000,33700"
 st "Mode_fct"
 ju 2
-blo "93000,51500"
+blo "95000,33500"
 )
 )
 thePort (LogicalPort
@@ -2576,7 +2576,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "75250,44625,76000,45375"
+xt "77250,26625,78000,27375"
 )
 tg (CPTG
 uid 13108,0
@@ -2587,9 +2587,9 @@ uid 13109,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "77000,44300,82800,45700"
+xt "79000,26300,84800,27700"
 st "position"
-blo "77000,45500"
+blo "79000,27500"
 )
 )
 thePort (LogicalPort
@@ -2612,7 +2612,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "94000,45625,94750,46375"
+xt "96000,27625,96750,28375"
 )
 tg (CPTG
 uid 13112,0
@@ -2623,10 +2623,10 @@ uid 13113,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "85800,45300,93000,46700"
+xt "87800,27300,95000,28700"
 st "reset_pos"
 ju 2
-blo "93000,46500"
+blo "95000,28500"
 )
 )
 thePort (LogicalPort
@@ -2650,7 +2650,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "94000,60625,94750,61375"
+xt "96000,42625,96750,43375"
 )
 tg (CPTG
 uid 13116,0
@@ -2661,10 +2661,10 @@ uid 13117,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "90500,60300,93000,61700"
+xt "92500,42300,95000,43700"
 st "rst"
 ju 2
-blo "93000,61500"
+blo "95000,43500"
 )
 )
 thePort (LogicalPort
@@ -2687,7 +2687,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "75250,49625,76000,50375"
+xt "77250,31625,78000,32375"
 )
 tg (CPTG
 uid 13120,0
@@ -2698,9 +2698,9 @@ uid 13121,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "77000,49300,82900,50700"
+xt "79000,31300,84900,32700"
 st "sensor1"
-blo "77000,50500"
+blo "79000,32500"
 )
 )
 thePort (LogicalPort
@@ -2722,7 +2722,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "75250,54625,76000,55375"
+xt "77250,36625,78000,37375"
 )
 tg (CPTG
 uid 13124,0
@@ -2733,9 +2733,9 @@ uid 13125,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "77000,54300,82900,55700"
+xt "79000,36300,84900,37700"
 st "sensor2"
-blo "77000,55500"
+blo "79000,37500"
 )
 )
 thePort (LogicalPort
@@ -2756,7 +2756,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "76000,42000,94000,64000"
+xt "78000,24000,96000,46000"
 )
 oxt "15000,5000,33000,27000"
 ttg (MlTextGroup
@@ -2769,9 +2769,9 @@ uid 13129,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "77850,64800,81550,66000"
+xt "79850,46800,83550,48000"
 st "Cursor"
-blo "77850,65800"
+blo "79850,47800"
 tm "BdLibraryNameMgr"
 )
 *74 (Text
@@ -2779,9 +2779,9 @@ uid 13130,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "77850,66000,86150,67200"
+xt "79850,48000,88150,49200"
 st "Cursor_Master"
-blo "77850,67000"
+blo "79850,49000"
 tm "CptNameMgr"
 )
 *75 (Text
@@ -2789,9 +2789,9 @@ uid 13131,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "77850,67200,79550,68400"
+xt "79850,49200,81550,50400"
 st "I2"
-blo "77850,68200"
+blo "79850,50200"
 tm "InstanceNameMgr"
 )
 ]
@@ -2806,7 +2806,7 @@ uid 13134,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "45500,44000,45500,44000"
+xt "47500,26000,47500,26000"
 )
 header ""
 )
@@ -2832,7 +2832,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "86250,13625,87000,14375"
+xt "83250,4625,84000,5375"
 )
 tg (CPTG
 uid 13166,0
@@ -2843,9 +2843,9 @@ uid 13167,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "88000,13300,91800,14700"
+xt "85000,4300,88800,5700"
 st "clock"
-blo "88000,14500"
+blo "85000,5500"
 )
 )
 thePort (LogicalPort
@@ -2868,7 +2868,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "86250,9625,87000,10375"
+xt "83250,625,84000,1375"
 )
 tg (CPTG
 uid 13170,0
@@ -2879,9 +2879,9 @@ uid 13171,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "88000,9300,95200,10700"
+xt "85000,300,92200,1700"
 st "encoderIn"
-blo "88000,10500"
+blo "85000,1500"
 )
 )
 thePort (LogicalPort
@@ -2904,7 +2904,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "99000,14625,99750,15375"
+xt "96000,5625,96750,6375"
 )
 tg (CPTG
 uid 13174,0
@@ -2915,10 +2915,10 @@ uid 13175,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "92200,14300,98000,15700"
+xt "89200,5300,95000,6700"
 st "position"
 ju 2
-blo "98000,15500"
+blo "95000,6500"
 )
 )
 thePort (LogicalPort
@@ -2942,7 +2942,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "86250,15625,87000,16375"
+xt "83250,6625,84000,7375"
 )
 tg (CPTG
 uid 13178,0
@@ -2953,9 +2953,9 @@ uid 13179,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "88000,15300,92100,16700"
+xt "85000,6300,89100,7700"
 st "reset"
-blo "88000,16500"
+blo "85000,7500"
 )
 )
 thePort (LogicalPort
@@ -2978,7 +2978,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "92625,5250,93375,6000"
+xt "89625,-3750,90375,-3000"
 )
 tg (CPTG
 uid 13182,0
@@ -2989,9 +2989,9 @@ uid 13183,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "90000,6000,97200,7400"
+xt "87000,-3000,94200,-1600"
 st "reset_pos"
-blo "90000,7200"
+blo "87000,-1800"
 )
 )
 thePort (LogicalPort
@@ -3013,7 +3013,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "87000,6000,99000,19000"
+xt "84000,-3000,96000,10000"
 )
 oxt "15000,6000,27000,19000"
 ttg (MlTextGroup
@@ -3026,9 +3026,9 @@ uid 13187,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "87250,19800,90950,21000"
+xt "84250,10800,87950,12000"
 st "Cursor"
-blo "87250,20800"
+blo "84250,11800"
 tm "BdLibraryNameMgr"
 )
 *83 (Text
@@ -3036,9 +3036,9 @@ uid 13188,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "87250,21000,96750,22200"
+xt "84250,12000,93750,13200"
 st "encoder_counter"
-blo "87250,22000"
+blo "84250,13000"
 tm "CptNameMgr"
 )
 *84 (Text
@@ -3046,9 +3046,9 @@ uid 13189,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "87250,22200,88950,23400"
+xt "84250,13200,85950,14400"
 st "I1"
-blo "87250,23200"
+blo "84250,14200"
 tm "InstanceNameMgr"
 )
 ]
@@ -3063,7 +3063,7 @@ uid 13192,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "61500,7000,61500,7000"
+xt "58500,-2000,58500,-2000"
 )
 header ""
 )
@@ -3968,8 +3968,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1385,864"
-viewArea "1239,-6308,145864,85692"
+windowSize "-8,-8,1376,880"
+viewArea "98898,-1106,192549,60463"
 cachedDiagramExtent "-17000,-23800,182600,152000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ippsion.hevs.ch\\PREA309_HPLJ3005DN,winspool,"
@@ -3996,7 +3996,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "24000,-12000"
-lastUid 13192,0
+lastUid 13257,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
