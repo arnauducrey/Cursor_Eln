@@ -140,7 +140,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:39:29"
+value "10:51:45"
 )
 (vvPair
 variable "group"
@@ -212,7 +212,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "09:39:29"
+value "10:51:45"
 )
 (vvPair
 variable "unit"
@@ -303,7 +303,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "54000,34800,66000,35600"
-st "clock    : std_ulogic"
+st "clock    : std_ulogic
+"
 )
 )
 *3 (PortIoOut
@@ -356,7 +357,7 @@ lang 2
 decl (Decl
 n "enPWM"
 t "std_uLogic"
-o 4
+o 5
 suid 2,0
 )
 declText (MLText
@@ -365,7 +366,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "54000,38000,66000,38800"
-st "enPWM    : std_uLogic"
+st "enPWM    : std_uLogic
+"
 )
 )
 *5 (PortIoOut
@@ -418,7 +420,7 @@ lang 2
 decl (Decl
 n "enRamp"
 t "std_uLogic"
-o 5
+o 6
 suid 3,0
 )
 declText (MLText
@@ -427,7 +429,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "54000,38800,66000,39600"
-st "enRamp   : std_uLogic"
+st "enRamp   : std_uLogic
+"
 )
 )
 *7 (PortIoIn
@@ -490,7 +493,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "54000,35600,66000,36400"
-st "reset    : std_ulogic"
+st "reset    : std_ulogic
+"
 )
 )
 *9 (PortIoIn
@@ -544,7 +548,7 @@ lang 2
 decl (Decl
 n "testMode"
 t "std_uLogic"
-o 3
+o 4
 suid 5,0
 )
 declText (MLText
@@ -553,7 +557,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "54000,37200,66000,38000"
-st "testMode : std_uLogic"
+st "testMode : std_uLogic
+"
 )
 )
 *11 (Grouping
@@ -1103,7 +1108,7 @@ lang 2
 decl (Decl
 n "restart"
 t "std_ulogic"
-o 7
+o 3
 suid 13,0
 )
 declText (MLText
@@ -1112,7 +1117,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "54000,36400,66000,37200"
-st "restart  : std_ulogic"
+st "restart  : std_ulogic
+"
 )
 )
 *32 (Wire
@@ -1661,7 +1667,7 @@ viewArea "-27900,-3900,74202,51636"
 cachedDiagramExtent "-7100,0,66000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-9000,0"
-lastUid 431,0
+lastUid 490,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2770,7 +2776,7 @@ lang 2
 decl (Decl
 n "testMode"
 t "std_uLogic"
-o 3
+o 4
 suid 5,0
 )
 )
@@ -2783,7 +2789,7 @@ m 1
 decl (Decl
 n "enPWM"
 t "std_uLogic"
-o 4
+o 5
 suid 2,0
 )
 )
@@ -2796,7 +2802,7 @@ m 1
 decl (Decl
 n "enRamp"
 t "std_uLogic"
-o 5
+o 6
 suid 3,0
 )
 )
@@ -2808,7 +2814,7 @@ lang 2
 decl (Decl
 n "restart"
 t "std_ulogic"
-o 7
+o 3
 suid 13,0
 )
 )
