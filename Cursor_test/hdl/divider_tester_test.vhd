@@ -12,6 +12,8 @@ BEGIN
   clock <= sClock after clockPeriod/10;
 
   testMode <= '1', '0' after 10000*clockPeriod;
+  
+  restart <= '0';
 
 --  start <=  '0',
 --            '1' after 210 us,

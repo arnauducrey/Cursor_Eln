@@ -6780,7 +6780,10 @@ DeclarativeBlockPortVaSet (VaSet
 font "Courier New,8,0"
 )
 order 0
-editSignalScope 4
+netPropagationOptions (netPropagationOptions
+changePortName 0
+)
+editSignalScope 3
 showUpdateWhereUsedPrompt 0
 )
 ]
