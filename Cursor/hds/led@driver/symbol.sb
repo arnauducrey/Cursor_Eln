@@ -71,7 +71,7 @@ lang 11
 m 1
 decl (Decl
 n "led_Out"
-t "unsigned"
+t "std_ulogic_vector"
 b "(8 DOWNTO 1)"
 o 2
 suid 1,0
@@ -479,7 +479,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:04:00"
+value "09:23:28"
 )
 (vvPair
 variable "group"
@@ -551,7 +551,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "09:04:00"
+value "09:23:28"
 )
 (vvPair
 variable "unit"
@@ -618,8 +618,8 @@ uid 55,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,3200,64500,4000"
-st "led_Out : OUT    unsigned (8 DOWNTO 1)
+xt "44000,3200,69500,4000"
+st "led_Out : OUT    std_ulogic_vector (8 DOWNTO 1)
 "
 )
 thePort (LogicalPort
@@ -627,7 +627,7 @@ lang 11
 m 1
 decl (Decl
 n "led_Out"
-t "unsigned"
+t "std_ulogic_vector"
 b "(8 DOWNTO 1)"
 o 2
 suid 1,0
@@ -1392,7 +1392,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 190,0
+lastUid 213,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

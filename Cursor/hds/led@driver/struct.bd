@@ -178,7 +178,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:04:06"
+value "09:26:59"
 )
 (vvPair
 variable "group"
@@ -250,7 +250,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "09:04:06"
+value "09:26:59"
 )
 (vvPair
 variable "unit"
@@ -332,7 +332,7 @@ uid 21,0
 lang 11
 decl (Decl
 n "led_Out"
-t "unsigned"
+t "std_ulogic_vector"
 b "(8 DOWNTO 1)"
 o 2
 suid 1,0
@@ -342,8 +342,9 @@ uid 22,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,3200,38500,4000"
-st "led_Out : unsigned(8 DOWNTO 1)"
+xt "22000,3200,43000,4000"
+st "led_Out : std_ulogic_vector(8 DOWNTO 1)
+"
 )
 )
 *3 (PortIoIn
@@ -407,7 +408,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2400,38500,3200"
-st "state   : unsigned(2 DOWNTO 0)"
+st "state   : unsigned(2 DOWNTO 0)
+"
 )
 )
 *5 (Grouping
@@ -1756,7 +1758,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6000,37000,6800"
-st "SIGNAL out0    : std_uLogic"
+st "SIGNAL out0    : std_uLogic
+"
 )
 )
 *45 (Net
@@ -1773,7 +1776,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6800,37000,7600"
-st "SIGNAL out1    : std_uLogic"
+st "SIGNAL out1    : std_uLogic
+"
 )
 )
 *46 (SaComponent
@@ -1926,7 +1930,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5200,37000,6000"
-st "SIGNAL logic_1 : std_uLogic"
+st "SIGNAL logic_1 : std_uLogic
+"
 )
 )
 *52 (Wire
@@ -2109,18 +2114,18 @@ xt "67000,74000,68000,75000"
 )
 )
 *63 (Ripper
-uid 308,0
+uid 527,0
 ps "OnConnectorStrategy"
 shape (Line2D
 pts [
-"47000,75000"
+"45000,75000"
 "46000,74000"
 ]
-uid 309,0
+uid 528,0
 va (VaSet
 vasetType 3
 )
-xt "46000,74000,47000,75000"
+xt "45000,74000,46000,75000"
 )
 )
 ]
@@ -2251,52 +2256,6 @@ tm "SignalTypeMgr"
 on &45
 )
 *66 (Wire
-uid 292,0
-shape (OrthoPolyLine
-uid 293,0
-va (VaSet
-vasetType 3
-)
-xt "46000,47000,46000,74000"
-pts [
-"46000,47000"
-"46000,74000"
-]
-)
-start &40
-end &63
-sat 32
-eat 32
-sl "(1 DOWNTO 0)"
-stc 0
-sf 1
-tg (WTG
-uid 296,0
-ps "ConnStartEndStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 297,0
-ro 270
-va (VaSet
-)
-xt "44800,44600,46000,51200"
-st "state(1:0)"
-blo "45800,51200"
-tm "WireNameMgr"
-)
-s (Text
-uid 406,0
-ro 270
-va (VaSet
-)
-xt "46000,51200,46000,51200"
-blo "46000,51200"
-tm "SignalTypeMgr"
-)
-)
-on &4
-)
-*67 (Wire
 uid 300,0
 shape (OrthoPolyLine
 uid 301,0
@@ -2344,7 +2303,7 @@ tm "SignalTypeMgr"
 )
 on &4
 )
-*68 (Wire
+*67 (Wire
 uid 327,0
 shape (OrthoPolyLine
 uid 328,0
@@ -2393,7 +2352,7 @@ tm "SignalTypeMgr"
 )
 on &51
 )
-*69 (Wire
+*68 (Wire
 uid 331,0
 shape (OrthoPolyLine
 uid 332,0
@@ -2431,7 +2390,7 @@ tm "WireNameMgr"
 )
 on &2
 )
-*70 (Wire
+*69 (Wire
 uid 337,0
 shape (OrthoPolyLine
 uid 338,0
@@ -2469,7 +2428,7 @@ tm "WireNameMgr"
 )
 on &2
 )
-*71 (Wire
+*70 (Wire
 uid 343,0
 shape (OrthoPolyLine
 uid 344,0
@@ -2507,7 +2466,7 @@ tm "WireNameMgr"
 )
 on &2
 )
-*72 (Wire
+*71 (Wire
 uid 349,0
 shape (OrthoPolyLine
 uid 350,0
@@ -2545,7 +2504,7 @@ tm "WireNameMgr"
 )
 on &2
 )
-*73 (Wire
+*72 (Wire
 uid 357,0
 shape (OrthoPolyLine
 uid 358,0
@@ -2563,7 +2522,7 @@ start &22
 sat 32
 eat 16
 sty 1
-sl "(1 DOWNTO 0)"
+sl "(2 DOWNTO 1)"
 stc 0
 sf 1
 tg (WTG
@@ -2576,7 +2535,7 @@ ro 270
 va (VaSet
 )
 xt "65800,33400,67000,40000"
-st "state(1:0)"
+st "state(2:1)"
 blo "66800,40000"
 tm "WireNameMgr"
 )
@@ -2592,7 +2551,7 @@ tm "SignalTypeMgr"
 )
 on &4
 )
-*74 (Wire
+*73 (Wire
 uid 371,0
 shape (OrthoPolyLine
 uid 372,0
@@ -2630,7 +2589,7 @@ tm "WireNameMgr"
 )
 on &2
 )
-*75 (Wire
+*74 (Wire
 uid 412,0
 shape (OrthoPolyLine
 uid 413,0
@@ -2668,7 +2627,7 @@ tm "WireNameMgr"
 )
 on &2
 )
-*76 (Wire
+*75 (Wire
 uid 418,0
 shape (OrthoPolyLine
 uid 419,0
@@ -2706,7 +2665,7 @@ tm "WireNameMgr"
 )
 on &2
 )
-*77 (Wire
+*76 (Wire
 uid 424,0
 shape (OrthoPolyLine
 uid 425,0
@@ -2743,6 +2702,45 @@ tm "WireNameMgr"
 )
 )
 on &2
+)
+*77 (Wire
+uid 523,0
+shape (OrthoPolyLine
+uid 524,0
+va (VaSet
+vasetType 3
+)
+xt "46000,47000,46000,74000"
+pts [
+"46000,74000"
+"46000,47000"
+]
+)
+start &63
+end &40
+sat 32
+eat 32
+sl "(2)"
+stc 0
+st 0
+sf 1
+si 0
+tg (WTG
+uid 525,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 526,0
+ro 270
+va (VaSet
+)
+xt "44800,49000,46000,53800"
+st "state(2)"
+blo "45800,53800"
+tm "WireNameMgr"
+)
+)
+on &4
 )
 ]
 bg "65535,65535,65535"
@@ -2857,7 +2855,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1537,864"
-viewArea "5200,13900,104684,68012"
+viewArea "5200,35468,104684,89580"
 cachedDiagramExtent "0,0,124000,89000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -2881,7 +2879,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,0"
-lastUid 429,0
+lastUid 528,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3979,7 +3977,7 @@ lang 11
 m 1
 decl (Decl
 n "led_Out"
-t "unsigned"
+t "std_ulogic_vector"
 b "(8 DOWNTO 1)"
 o 2
 suid 1,0

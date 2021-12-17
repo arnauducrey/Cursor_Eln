@@ -6781,6 +6781,8 @@ font "Courier New,8,0"
 )
 order 0
 netPropagationOptions (netPropagationOptions
+includeEmbedded 0
+down 0
 changePortName 0
 changeLeafView 0
 highlightNet 0
