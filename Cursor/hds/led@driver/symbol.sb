@@ -70,7 +70,7 @@ port (LogicalPort
 lang 11
 m 1
 decl (Decl
-n "BusLeds"
+n "led_Out"
 t "unsigned"
 b "(8 DOWNTO 1)"
 o 2
@@ -83,9 +83,9 @@ uid 61,0
 port (LogicalPort
 lang 11
 decl (Decl
-n "mode_fct"
+n "state"
 t "unsigned"
-b "(3 DOWNTO 0)"
+b "(2 DOWNTO 0)"
 o 1
 suid 2,0
 )
@@ -118,7 +118,7 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *17 (MRCItem
 litem &1
-pos 3
+pos 2
 dimension 20
 )
 uid 82,0
@@ -288,7 +288,7 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *44 (MRCItem
 litem &31
-pos 3
+pos 0
 dimension 20
 )
 uid 110,0
@@ -383,23 +383,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\@gestion@leds\\interface.info"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\led@driver\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\@gestion@leds\\interface.user"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\led@driver\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -407,7 +407,7 @@ value "HDL Designer"
 )
 (vvPair
 variable "arch_name"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "concat_file"
@@ -419,31 +419,31 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\@gestion@leds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\led@driver"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\GestionLeds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\ledDriver"
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "17.12.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "17"
 )
 (vvPair
 variable "entity_name"
-value "GestionLeds"
+value "ledDriver"
 )
 (vvPair
 variable "ext"
@@ -451,23 +451,23 @@ value "<TBD>"
 )
 (vvPair
 variable "f"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_logical"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_noext"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "Arnaud"
+value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "17.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -475,11 +475,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "DESKTOP-4F3HILT"
+value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:26:53"
+value "09:04:00"
 )
 (vvPair
 variable "group"
@@ -487,7 +487,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "DESKTOP-4F3HILT"
+value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "language"
@@ -507,7 +507,7 @@ value "12"
 )
 (vvPair
 variable "module_name"
-value "GestionLeds"
+value "ledDriver"
 )
 (vvPair
 variable "month"
@@ -519,11 +519,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\@gestion@leds\\interface"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\led@driver\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor\\hds\\GestionLeds\\interface"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\ledDriver\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -539,27 +539,27 @@ value "HDL Designer Series"
 )
 (vvPair
 variable "this_ext"
-value "<TBD>"
+value "sb"
 )
 (vvPair
 variable "this_file"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "this_file_logical"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "time"
-value "09:26:53"
+value "09:04:00"
 )
 (vvPair
 variable "unit"
-value "GestionLeds"
+value "ledDriver"
 )
 (vvPair
 variable "user"
-value "Arnaud"
+value "robin"
 )
 (vvPair
 variable "version"
@@ -567,7 +567,7 @@ value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "year"
@@ -595,7 +595,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "29000,10625,29750,11375"
+xt "45000,18625,45750,19375"
 )
 tg (CPTG
 uid 53,0
@@ -606,10 +606,10 @@ uid 54,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "21900,10300,28000,11700"
-st "BusLeds"
+xt "38200,18300,44000,19700"
+st "led_Out"
 ju 2
-blo "28000,11500"
+blo "44000,19500"
 tm "CptPortNameMgr"
 )
 )
@@ -618,15 +618,15 @@ uid 55,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,3200,65000,4000"
-st "BusLeds  : OUT    unsigned (8 DOWNTO 1)
+xt "44000,3200,64500,4000"
+st "led_Out : OUT    unsigned (8 DOWNTO 1)
 "
 )
 thePort (LogicalPort
 lang 11
 m 1
 decl (Decl
-n "BusLeds"
+n "led_Out"
 t "unsigned"
 b "(8 DOWNTO 1)"
 o 2
@@ -644,7 +644,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,10625,15000,11375"
+xt "30250,18625,31000,19375"
 )
 tg (CPTG
 uid 58,0
@@ -655,9 +655,9 @@ uid 59,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,10300,22600,11700"
-st "mode_fct"
-blo "16000,11500"
+xt "32000,18300,36100,19700"
+st "state"
+blo "32000,19500"
 tm "CptPortNameMgr"
 )
 )
@@ -666,16 +666,16 @@ uid 60,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2400,66500,3200"
-st "mode_fct : IN     unsigned (3 DOWNTO 0) ;
+xt "44000,2400,66000,3200"
+st "state   : IN     unsigned (2 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
-n "mode_fct"
+n "state"
 t "unsigned"
-b "(3 DOWNTO 0)"
+b "(2 DOWNTO 0)"
 o 1
 suid 2,0
 )
@@ -690,8 +690,9 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,29000,22000"
+xt "31000,16000,45000,22000"
 )
+oxt "15000,6000,23000,16000"
 biTextGroup (BiTextGroup
 uid 10,0
 ps "CenterOffsetStrategy"
@@ -701,18 +702,18 @@ uid 11,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "18350,12800,22050,14000"
+xt "31450,22800,35150,24000"
 st "Cursor"
-blo "18350,13800"
+blo "31450,23800"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "18350,14000,25650,15200"
-st "GestionLeds"
-blo "18350,15000"
+xt "31450,24000,36550,25200"
+st "ledDriver"
+blo "31450,25000"
 )
 )
 gi *58 (GenericInterface
@@ -725,7 +726,7 @@ uid 15,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-7500,10000,4000,10800"
+xt "5500,15000,17000,15800"
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -766,7 +767,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,46200,49000"
+xt "36200,48000,45500,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1052,7 +1053,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,47000,47300,48000"
+xt "36200,47000,45900,48000"
 st "
 %library/%unit/%view
 "
@@ -1117,10 +1118,11 @@ tm "PackageList"
 )
 ]
 )
-windowSize "0,0,1015,690"
-viewArea "0,0,0,0"
-cachedDiagramExtent "0,0,0,0"
-pageBreakOrigin "0,0"
+windowSize "220,102,1236,792"
+viewArea "-500,-500,70420,50080"
+cachedDiagramExtent "0,0,73000,49000"
+hasePageBreakOrigin 1
+pageBreakOrigin "-11000,0"
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -1390,6 +1392,8 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 144,0
-activeModelName "Symbol:CDM"
+lastUid 190,0
+okToSyncOnLoad 1
+OkToSyncGenericsOnLoad 1
+activeModelName "Symbol"
 )
