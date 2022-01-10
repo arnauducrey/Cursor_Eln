@@ -17,16 +17,16 @@ BEGIN
 
 	clock_int <= not clock_int after clockPeriod/2;
 	clock <= transport clock_int after 9*clockPeriod/10;
-	
+	testMode <= '0';
 	
 	mode_fct <=  "111" ,
-		"000" after 500 us,
-		"001" after 1 ms,
-		"010" after 1500 us,
-		"111" after 2000 us,
-		"100" after 2500 us,
-		"101" after 3000 us,
-		"110" after 3500 us,
-		"111" after 4000 us;
+		"000" after 500 us;
+		--"001" after 1 ms,
+		--"010" after 1500 us,
+		--"111" after 2000 us,
+		--"100" after 2500 us,
+		--"101" after 3000 us,
+		--"110" after 3500 us,
+		--"111" after 4000 us;
 END ARCHITECTURE test;
 

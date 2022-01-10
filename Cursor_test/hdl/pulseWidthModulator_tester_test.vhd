@@ -14,7 +14,7 @@ ARCHITECTURE test OF pulseWidthModulator_tester IS
 	signal clock_int: std_uLogic := '0';	
   
 BEGIN
-
+	testMode <= '0';
 	reset <= '1', '0' after 4*clockPeriod;
 
 	clock_int <= not clock_int after clockPeriod/2;

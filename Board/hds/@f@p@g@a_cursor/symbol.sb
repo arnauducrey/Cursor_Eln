@@ -744,23 +744,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Board\\hdl"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Board\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Board\\hds"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\symbol.sb.info"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\symbol.sb.user"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Board\\hds"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "appl"
@@ -780,27 +780,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Board\\hds\\FPGA_cursor"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Board\\hds\\FPGA_cursor"
 )
 (vvPair
 variable "date"
-value "11.11.2019"
+value "20.12.2021"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "11"
+value "20"
 )
 (vvPair
 variable "designName"
@@ -828,11 +828,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "silvan.zahno"
+value "robin.carrupt"
 )
 (vvPair
 variable "graphical_source_date"
-value "11.11.2019"
+value "20.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -840,11 +840,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE6996"
+value "WEA20302"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:13:01"
+value "14:50:51"
 )
 (vvPair
 variable "group"
@@ -852,7 +852,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE6996"
+value "WEA20302"
 )
 (vvPair
 variable "language"
@@ -884,7 +884,7 @@ value "U:\\ELN_cursor\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "11"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -892,19 +892,19 @@ value "FPGA_cursor"
 )
 (vvPair
 variable "month"
-value "Nov"
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "November"
+value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\symbol.sb"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Board\\hds\\FPGA_cursor\\symbol.sb"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Board\\hds\\FPGA_cursor\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -972,7 +972,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "08:13:01"
+value "14:50:51"
 )
 (vvPair
 variable "unit"
@@ -980,7 +980,7 @@ value "FPGA_cursor"
 )
 (vvPair
 variable "user"
-value "silvan.zahno"
+value "robin.carrupt"
 )
 (vvPair
 variable "version"
@@ -992,11 +992,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2021"
 )
 (vvPair
 variable "yy"
-value "19"
+value "21"
 )
 ]
 )
@@ -1038,7 +1038,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,10600,15400,11600"
-st "clock      : IN     std_ulogic  ;"
+st "clock      : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1081,7 +1082,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,16600,15800,17600"
-st "reset_n    : IN     std_ulogic  ;"
+st "reset_n    : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1112,9 +1114,9 @@ f (Text
 uid 147,0
 va (VaSet
 )
-xt "33000,25500,37800,26500"
+xt "33000,25500,38400,26700"
 st "testMode"
-blo "33000,26300"
+blo "33000,26500"
 tm "CptPortNameMgr"
 )
 )
@@ -1124,7 +1126,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,20600,16400,21600"
-st "testMode   : IN     std_uLogic  ;"
+st "testMode   : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1166,7 +1169,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,26600,16400,27600"
-st "LED1       : OUT    std_uLogic  ;"
+st "LED1       : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1209,7 +1213,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,27600,16200,28600"
-st "LED2       : OUT    std_ulogic  ;"
+st "LED2       : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1253,7 +1258,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,17600,16000,18600"
-st "restart_n  : IN     std_uLogic  ;"
+st "restart_n  : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1297,7 +1303,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,18600,16500,19600"
-st "sensor1_n  : IN     std_uLogic  ;"
+st "sensor1_n  : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1341,7 +1348,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,19600,16500,20600"
-st "sensor2_n  : IN     std_uLogic  ;"
+st "sensor2_n  : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1385,7 +1393,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,29600,17000,30600"
-st "motorOn    : OUT    std_uLogic  ;"
+st "motorOn    : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1430,7 +1439,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,30600,16200,31600"
-st "side1      : OUT    std_uLogic  ;"
+st "side1      : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1475,7 +1485,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,31600,15500,32600"
-st "side2      : OUT    std_uLogic "
+st "side2      : OUT    std_uLogic 
+"
 )
 thePort (LogicalPort
 m 1
@@ -1520,7 +1531,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,11600,16800,12600"
-st "encoderA_n : IN     std_uLogic  ;"
+st "encoderA_n : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1564,7 +1576,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,12600,16800,13600"
-st "encoderB_n : IN     std_uLogic  ;"
+st "encoderB_n : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1608,7 +1621,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,13600,16600,14600"
-st "encoderI_n : IN     std_uLogic  ;"
+st "encoderI_n : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1651,7 +1665,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,14600,16100,15600"
-st "go1_n      : IN     std_uLogic  ;"
+st "go1_n      : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1694,7 +1709,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,15600,16100,16600"
-st "go2_n      : IN     std_uLogic  ;"
+st "go2_n      : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1737,7 +1753,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,9600,16500,10600"
-st "button4_n  : IN     std_uLogic  ;"
+st "button4_n  : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1781,7 +1798,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,22600,17400,23600"
-st "LCD_CS1_n  : OUT    std_ulogic  ;"
+st "LCD_CS1_n  : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1826,7 +1844,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,24600,16900,25600"
-st "LCD_SCL    : OUT    std_ulogic  ;"
+st "LCD_SCL    : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1871,7 +1890,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,25600,16500,26600"
-st "LCD_SI     : OUT    std_ulogic  ;"
+st "LCD_SI     : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1916,7 +1936,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,21600,16700,22600"
-st "LCD_A0     : OUT    std_ulogic  ;"
+st "LCD_A0     : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1961,7 +1982,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,23600,17400,24600"
-st "LCD_RST_n  : OUT    std_ulogic  ;"
+st "LCD_RST_n  : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -2006,7 +2028,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,28600,23300,29600"
-st "LEDs       : OUT    std_uLogic_vector (1 TO 8) ;"
+st "LEDs       : OUT    std_uLogic_vector (1 TO 8) ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -2166,7 +2189,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "27200,47400,43400,48600"
+xt "27200,47400,45900,48600"
 st "
 by %user on %dd %month %year
 "
@@ -2723,7 +2746,7 @@ xt "0,7800,0,7800"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1305,0
+lastUid 1374,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 )

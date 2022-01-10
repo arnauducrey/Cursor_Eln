@@ -21,7 +21,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 11,0
+suid 15,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -67,10 +67,10 @@ decl (Decl
 n "clock"
 t "std_ulogic"
 o 1
-suid 8,0
+suid 12,0
 )
 )
-uid 384,0
+uid 481,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -79,11 +79,11 @@ m 1
 decl (Decl
 n "enPWM"
 t "std_uLogic"
-o 4
-suid 9,0
+o 5
+suid 13,0
 )
 )
-uid 386,0
+uid 483,0
 )
 *16 (LogPort
 port (LogicalPort
@@ -92,10 +92,10 @@ decl (Decl
 n "reset"
 t "std_ulogic"
 o 2
-suid 10,0
+suid 14,0
 )
 )
-uid 388,0
+uid 485,0
 )
 *17 (LogPort
 port (LogicalPort
@@ -104,10 +104,10 @@ decl (Decl
 n "restart"
 t "std_ulogic"
 o 3
-suid 11,0
+suid 15,0
 )
 )
-uid 390,0
+uid 487,0
 )
 ]
 )
@@ -163,25 +163,25 @@ uid 71,0
 litem &14
 pos 0
 dimension 20
-uid 385,0
+uid 482,0
 )
 *24 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 387,0
+uid 484,0
 )
 *25 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 389,0
+uid 486,0
 )
 *26 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 391,0
+uid 488,0
 )
 ]
 )
@@ -412,23 +412,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@fast\\interface.info"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@fast\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@fast\\interface.user"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@fast\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -448,27 +448,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@fast"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@fast"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Divider_Fast"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Divider_Fast"
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "10.01.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "10"
 )
 (vvPair
 variable "entity_name"
@@ -492,11 +492,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "robin"
+value "robin.carrupt"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "10.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -504,11 +504,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "DESKTOP-93FHAQ3"
+value "WEA20302"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:39:10"
+value "13:40:26"
 )
 (vvPair
 variable "group"
@@ -516,7 +516,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "DESKTOP-93FHAQ3"
+value "WEA20302"
 )
 (vvPair
 variable "language"
@@ -532,7 +532,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -540,19 +540,19 @@ value "Divider_Fast"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@fast\\interface"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@fast\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Divider_Fast\\interface"
+value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Divider_Fast\\interface"
 )
 (vvPair
 variable "package_name"
@@ -580,7 +580,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "09:39:10"
+value "13:40:26"
 )
 (vvPair
 variable "unit"
@@ -588,7 +588,7 @@ value "Divider_Fast"
 )
 (vvPair
 variable "user"
-value "robin"
+value "robin.carrupt"
 )
 (vvPair
 variable "version"
@@ -600,11 +600,11 @@ value "interface"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -615,10 +615,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *60 (CptPort
-uid 364,0
+uid 461,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 365,0
+uid 462,0
 ro 90
 va (VaSet
 vasetType 1
@@ -627,11 +627,11 @@ fg "0,65535,0"
 xt "14250,8625,15000,9375"
 )
 tg (CPTG
-uid 366,0
+uid 463,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 367,0
+uid 464,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -642,12 +642,13 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 368,0
+uid 465,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,60500,3200"
-st "clock   : IN     std_ulogic  ;"
+st "clock   : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -655,15 +656,15 @@ decl (Decl
 n "clock"
 t "std_ulogic"
 o 1
-suid 8,0
+suid 12,0
 )
 )
 )
 *61 (CptPort
-uid 369,0
+uid 466,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 370,0
+uid 467,0
 ro 90
 va (VaSet
 vasetType 1
@@ -672,11 +673,11 @@ fg "0,65535,0"
 xt "23000,10625,23750,11375"
 )
 tg (CPTG
-uid 371,0
+uid 468,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 372,0
+uid 469,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -688,12 +689,13 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 373,0
+uid 470,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,59500,5600"
-st "enPWM   : OUT    std_uLogic "
+st "enPWM   : OUT    std_uLogic 
+"
 )
 thePort (LogicalPort
 lang 2
@@ -701,16 +703,16 @@ m 1
 decl (Decl
 n "enPWM"
 t "std_uLogic"
-o 4
-suid 9,0
+o 5
+suid 13,0
 )
 )
 )
 *62 (CptPort
-uid 374,0
+uid 471,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 375,0
+uid 472,0
 ro 90
 va (VaSet
 vasetType 1
@@ -719,11 +721,11 @@ fg "0,65535,0"
 xt "14250,12625,15000,13375"
 )
 tg (CPTG
-uid 376,0
+uid 473,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 377,0
+uid 474,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -734,12 +736,13 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 378,0
+uid 475,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,60500,4000"
-st "reset   : IN     std_ulogic  ;"
+st "reset   : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -747,15 +750,15 @@ decl (Decl
 n "reset"
 t "std_ulogic"
 o 2
-suid 10,0
+suid 14,0
 )
 )
 )
 *63 (CptPort
-uid 379,0
+uid 476,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 380,0
+uid 477,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -763,11 +766,11 @@ fg "0,65535,0"
 xt "18625,16000,19375,16750"
 )
 tg (CPTG
-uid 381,0
+uid 478,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 382,0
+uid 479,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -779,12 +782,13 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 383,0
+uid 480,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,60500,4800"
-st "restart : IN     std_ulogic  ;"
+st "restart : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -792,7 +796,7 @@ decl (Decl
 n "restart"
 t "std_ulogic"
 o 3
-suid 11,0
+suid 15,0
 )
 )
 )
@@ -1503,6 +1507,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 437,0
+lastUid 488,0
 activeModelName "Symbol:CDM"
 )
