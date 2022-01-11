@@ -1272,6 +1272,7 @@ projectPaths [
 "C:\\Users\\Arnaud\\Desktop\\test\\Cursor_Eln-master\\Prefs\\hds.hdp"
 "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\hds.hdp"
 "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\hds.hdp"
+"C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -1292,37 +1293,8 @@ exportedDirectories [
 exportStdIncludeRefs 1
 exportStdPackageRefs 1
 )
-printerName "Adobe PDF"
+printerName "PDFCreator"
 pageSizes [
-(PageSizeInfo
-name "Letter"
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Tabloid"
-type 3
-width 1013
-height 1566
-)
-(PageSizeInfo
-name "Ledger"
-type 4
-width 1566
-height 1013
-)
-(PageSizeInfo
-name "Legal"
-type 5
-width 783
-height 1290
-)
-(PageSizeInfo
-name "Executive"
-type 7
-width 667
-height 967
-)
 (PageSizeInfo
 name "A3"
 type 8
@@ -1336,199 +1308,409 @@ width 761
 height 1077
 )
 (PageSizeInfo
+name "A5"
+type 11
+width 536
+height 761
+)
+(PageSizeInfo
 name "A2"
 type 66
 width 1523
 height 2155
 )
 (PageSizeInfo
-name "11 x 17"
-type 119
+name "A6"
+type 70
+width 380
+height 536
+)
+(PageSizeInfo
+name "Tabloid"
+type 153
 width 1013
 height 1566
 )
 (PageSizeInfo
-name "Screen"
-type 120
-width 599
-height 477
-)
-(PageSizeInfo
-name "ANSI C"
-type 121
+name "Ledger"
+type 154
 width 1566
-height 2027
+height 1013
 )
 (PageSizeInfo
-name "ANSI D"
-type 122
-width 2027
-height 3133
+name "Legal"
+type 155
+width 783
+height 1290
 )
 (PageSizeInfo
-name "ANSI E"
-type 123
-width 3133
-height 4055
+name "Letter"
+type 156
+width 783
+height 1013
 )
 (PageSizeInfo
-name "ANSI F"
-type 124
-width 2580
-height 3686
-)
-(PageSizeInfo
-name "ARCH A"
-type 125
-width 829
-height 1105
-)
-(PageSizeInfo
-name "ARCH B"
-type 126
-width 1105
-height 1658
-)
-(PageSizeInfo
-name "ARCH C"
-type 127
-width 1658
-height 2211
-)
-(PageSizeInfo
-name "ARCH D"
-type 128
-width 2211
-height 3317
-)
-(PageSizeInfo
-name "ARCH E"
-type 129
-width 3317
-height 4423
-)
-(PageSizeInfo
-name "ARCH E1"
-type 130
-width 2764
-height 3870
-)
-(PageSizeInfo
-name "ARCH E2"
-type 131
-width 2396
-height 3502
-)
-(PageSizeInfo
-name "ARCH E3"
-type 132
-width 2488
-height 3594
-)
-(PageSizeInfo
-name "A1"
-type 133
-width 2155
-height 3051
+name "LetterSmall"
+type 157
+width 783
+height 1013
 )
 (PageSizeInfo
 name "A0"
-type 134
+type 158
 width 3051
 height 4313
 )
 (PageSizeInfo
+name "A1"
+type 159
+width 2155
+height 3051
+)
+(PageSizeInfo
+name "A4 Small"
+type 160
+width 761
+height 1077
+)
+(PageSizeInfo
+name "A7"
+type 161
+width 268
+height 379
+)
+(PageSizeInfo
+name "A8"
+type 162
+width 189
+height 268
+)
+(PageSizeInfo
+name "A9"
+type 163
+width 134
+height 189
+)
+(PageSizeInfo
+name "A10"
+type 164
+width 93
+height 134
+)
+(PageSizeInfo
+name "ISO B0"
+type 165
+width 3628
+height 5130
+)
+(PageSizeInfo
+name "ISO B1"
+type 166
+width 2564
+height 3628
+)
+(PageSizeInfo
+name "ISO B2"
+type 167
+width 1813
+height 2564
+)
+(PageSizeInfo
+name "ISO B3"
+type 168
+width 1281
+height 1813
+)
+(PageSizeInfo
+name "ISO B4"
+type 169
+width 907
+height 1281
+)
+(PageSizeInfo
+name "ISO B5"
+type 170
+width 638
+height 907
+)
+(PageSizeInfo
+name "ISO B6"
+type 171
+width 452
+height 638
+)
+(PageSizeInfo
+name "JIS B0"
+type 172
+width 3737
+height 5282
+)
+(PageSizeInfo
+name "JIS B1"
+type 173
+width 2641
+height 3737
+)
+(PageSizeInfo
+name "JIS B2"
+type 174
+width 1868
+height 2641
+)
+(PageSizeInfo
+name "JIS B3"
+type 175
+width 1320
+height 1868
+)
+(PageSizeInfo
+name "JIS B4"
+type 176
+width 932
+height 1320
+)
+(PageSizeInfo
+name "JIS B5"
+type 177
+width 660
+height 932
+)
+(PageSizeInfo
+name "JIS B6"
+type 178
+width 464
+height 660
+)
+(PageSizeInfo
+name "C0"
+type 179
+width 3326
+height 4706
+)
+(PageSizeInfo
+name "C1"
+type 180
+width 2351
+height 3326
+)
+(PageSizeInfo
+name "C2"
+type 181
+width 1661
+height 2351
+)
+(PageSizeInfo
+name "C3"
+type 182
+width 1174
+height 1661
+)
+(PageSizeInfo
+name "C4"
+type 183
+width 830
+height 1174
+)
+(PageSizeInfo
+name "C5"
+type 184
+width 587
+height 830
+)
+(PageSizeInfo
+name "C6"
+type 185
+width 413
+height 587
+)
+(PageSizeInfo
+name "ARCH E"
+type 186
+width 3317
+height 4423
+)
+(PageSizeInfo
+name "ARCH D"
+type 187
+width 2211
+height 3317
+)
+(PageSizeInfo
+name "ARCH C"
+type 188
+width 1658
+height 2211
+)
+(PageSizeInfo
+name "ARCH B"
+type 189
+width 1105
+height 1658
+)
+(PageSizeInfo
+name "ARCH A"
+type 190
+width 829
+height 1105
+)
+(PageSizeInfo
+name "FLSA"
+type 191
+width 783
+height 1198
+)
+(PageSizeInfo
+name "FLSE"
+type 192
+width 783
+height 1198
+)
+(PageSizeInfo
+name "HalfLetter"
+type 193
+width 506
+height 783
+)
+(PageSizeInfo
+name "PA4"
+type 194
+width 761
+height 1013
+)
+(PageSizeInfo
 name "Oversize A2"
-type 135
+type 195
 width 1741
 height 2268
 )
 (PageSizeInfo
 name "Oversize A1"
-type 136
+type 196
 width 2268
 height 3265
 )
 (PageSizeInfo
 name "Oversize A0"
-type 137
+type 197
 width 3265
 height 4516
 )
 (PageSizeInfo
-name "ISO B5"
-type 138
-width 638
-height 907
-)
-(PageSizeInfo
-name "ISO B4"
-type 139
-width 907
-height 1281
-)
-(PageSizeInfo
-name "ISO B2"
-type 140
-width 1813
-height 2564
-)
-(PageSizeInfo
-name "ISO B1"
-type 141
-width 2564
-height 3628
-)
-(PageSizeInfo
-name "C5"
-type 142
-width 587
-height 830
-)
-(PageSizeInfo
-name "JIS B4"
-type 143
-width 932
-height 1320
-)
-(PageSizeInfo
-name "JIS B3"
-type 144
-width 1320
-height 1868
-)
-(PageSizeInfo
-name "JIS B2"
-type 145
-width 1868
-height 2641
-)
-(PageSizeInfo
-name "JIS B1"
-type 146
-width 2641
-height 3737
-)
-(PageSizeInfo
-name "JIS B0"
-type 147
-width 3737
-height 5282
-)
-(PageSizeInfo
-name "92 x 92"
-type 148
+name "92x92"
+type 198
 width 8478
 height 8478
 )
 (PageSizeInfo
-name "Slide 7.5 x 10"
-type 149
-width 691
+name "ANSI C"
+type 199
+width 1566
+height 2027
+)
+(PageSizeInfo
+name "ANSI D"
+type 200
+width 2027
+height 3133
+)
+(PageSizeInfo
+name "ANSI E"
+type 201
+width 3133
+height 4055
+)
+(PageSizeInfo
+name "ANSI F"
+type 202
+width 2580
+height 3686
+)
+(PageSizeInfo
+name "ARCH E1"
+type 203
+width 2764
+height 3870
+)
+(PageSizeInfo
+name "ARCH E2"
+type 204
+width 2396
+height 3502
+)
+(PageSizeInfo
+name "ARCH E3"
+type 205
+width 2488
+height 3594
+)
+(PageSizeInfo
+name "Screen 640x480 (VGA)"
+type 206
+width 818
+height 614
+)
+(PageSizeInfo
+name "Screen 800x600 (SVGA)"
+type 207
+width 1023
+height 767
+)
+(PageSizeInfo
+name "Screen 1024x768 (XGA)"
+type 208
+width 1310
+height 982
+)
+(PageSizeInfo
+name "Screen 1280x1024 (SXGA)"
+type 209
+width 1638
+height 1310
+)
+(PageSizeInfo
+name "TV NTSC DV 720x480"
+type 210
+width 921
+height 614
+)
+(PageSizeInfo
+name "TV NTSC D1 720x486"
+type 211
+width 921
+height 621
+)
+(PageSizeInfo
+name "TV NTSC D1 Square Pix 720x540"
+type 212
+width 921
+height 691
+)
+(PageSizeInfo
+name "TV PAL Square Pix 768x576"
+type 213
+width 982
+height 737
+)
+(PageSizeInfo
+name "TV PAL 720x576"
+type 214
+width 921
+height 737
+)
+(PageSizeInfo
+name "TV HDTV 1280x720"
+type 215
+width 1638
 height 921
 )
 (PageSizeInfo
-name "PostScript Custom Page Size"
+name "TV HDTV 1920x1080"
+type 216
+width 2457
+height 1382
+)
+(PageSizeInfo
+name "Dimension de papier personnalisée PostScript"
 type 32767
 width 761
 height 1077
@@ -4170,7 +4352,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x532+767+171"
+logWindowGeometry "600x532+5+2"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6275,10 +6457,10 @@ size 181
 displayHierarchy 0
 xPos 0
 yPos 0
-width 1936
-height 1066
+width 1384
+height 888
 activeSidePanelTab 2
-activeLibraryTab 1
+activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 868
@@ -6759,7 +6941,6 @@ includeEmbedded 0
 down 0
 changePortName 0
 changeLeafView 0
-highlightNet 0
 )
 editSignalScope 3
 showUpdateWhereUsedPrompt 0

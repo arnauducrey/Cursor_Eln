@@ -58,17 +58,17 @@ BEGIN
     ----------------------------------------------------------------------------
                                                   -- advance to first stop point
     go1 <= '1', '0' after buttonsPulseWidth;
-    wait for 16 ms;
+    wait for 1 ms;
 
     ----------------------------------------------------------------------------
                                                  -- advance to second stop point
     go2 <= '1', '0' after buttonsPulseWidth;
-    wait for 26 ms;
+    wait for 1 ms;
 
     ----------------------------------------------------------------------------
                                                   -- go back to first stop point
     go1 <= '1', '0' after buttonsPulseWidth;
-    wait for 10 ms;
+    wait for 1 ms;
 
     ----------------------------------------------------------------------------
                                               -- back to start with sensor reset
@@ -80,7 +80,7 @@ BEGIN
     ----------------------------------------------------------------------------
                                                  -- advance to second stop point
     go2 <= '1', '0' after buttonsPulseWidth;
-    wait for 48 ms;
+    wait for 3 ms;
 
     ----------------------------------------------------------------------------
                                               -- back to start with counter stop
