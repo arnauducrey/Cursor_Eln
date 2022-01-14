@@ -206,23 +206,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.info"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.user"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -242,27 +242,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit"
 )
 (vvPair
 variable "d_logical"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursorCircuit"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursorCircuit"
 )
 (vvPair
 variable "date"
-value "10.01.2022"
+value "11.01.2022"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "10"
+value "11"
 )
 (vvPair
 variable "designName"
@@ -290,11 +290,11 @@ value "student@version"
 )
 (vvPair
 variable "graphical_source_author"
-value "robin.carrupt"
+value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "10.01.2022"
+value "11.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -302,11 +302,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA20302"
+value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:25:25"
+value "09:18:29"
 )
 (vvPair
 variable "group"
@@ -314,7 +314,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA20302"
+value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "language"
@@ -362,11 +362,11 @@ value "janvier"
 )
 (vvPair
 variable "p"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd"
 )
 (vvPair
 variable "p_logical"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursorCircuit\\studentVersion.bd"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\cursorCircuit\\studentVersion.bd"
 )
 (vvPair
 variable "package_name"
@@ -442,7 +442,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "14:25:25"
+value "09:18:29"
 )
 (vvPair
 variable "unit"
@@ -450,7 +450,7 @@ value "cursorCircuit"
 )
 (vvPair
 variable "user"
-value "robin.carrupt"
+value "robin"
 )
 (vvPair
 variable "version"
@@ -589,7 +589,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "125200,150400,143900,151600"
+xt "125200,150400,144200,151600"
 st "
 by %user on %dd %month %year
 "
@@ -5776,9 +5776,9 @@ uid 6105,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "153000,37600,159300,39000"
+xt "140000,37600,146300,39000"
 st "motorOn"
-blo "153000,38800"
+blo "140000,38800"
 tm "WireNameMgr"
 )
 )
@@ -7020,8 +7020,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,24,1680,930"
-viewArea "25600,11452,135952,70580"
+windowSize "0,0,1537,864"
+viewArea "70204,23764,180160,85588"
 cachedDiagramExtent "-17000,-23800,171000,152000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ippsion.hevs.ch\\PREA309_HPLJ3005DN,winspool,"
@@ -7048,7 +7048,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "24000,-12000"
-lastUid 14976,0
+lastUid 15015,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
