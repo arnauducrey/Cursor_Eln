@@ -133,23 +133,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\struct.bd.info"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\struct.bd.user"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -169,15 +169,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver"
 )
 (vvPair
 variable "d_logical"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver"
 )
 (vvPair
 variable "date"
-value "20.12.2021"
+value "17.01.2022"
 )
 (vvPair
 variable "day"
@@ -189,7 +189,7 @@ value "lundi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -213,11 +213,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "robin.carrupt"
+value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "20.12.2021"
+value "17.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -225,11 +225,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA20302"
+value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:58:28"
+value "15:18:14"
 )
 (vvPair
 variable "group"
@@ -237,7 +237,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA20302"
+value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "language"
@@ -253,7 +253,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -261,19 +261,19 @@ value "motor_driver"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\struct.bd"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\struct.bd"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driver\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -301,7 +301,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:58:28"
+value "15:18:14"
 )
 (vvPair
 variable "unit"
@@ -309,7 +309,7 @@ value "motor_driver"
 )
 (vvPair
 variable "user"
-value "robin.carrupt"
+value "robin"
 )
 (vvPair
 variable "version"
@@ -321,11 +321,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -391,8 +391,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5600,34000,6400"
-st "In1      : std_ulogic
-"
+st "In1      : std_ulogic"
 )
 )
 *3 (PortIoOut
@@ -454,8 +453,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6400,34000,7200"
-st "In2      : std_ulogic
-"
+st "In2      : std_ulogic"
 )
 )
 *5 (PortIoOut
@@ -517,8 +515,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7200,34000,8000"
-st "motorEn  : std_ulogic
-"
+st "motorEn  : std_ulogic"
 )
 )
 *7 (Grouping
@@ -543,7 +540,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "84200,81000,96100,82000"
+xt "84200,81000,93700,82000"
 st "
 by %user on %dd %month %year
 "
@@ -915,8 +912,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2400,34000,3200"
-st "clock    : std_ulogic
-"
+st "clock    : std_ulogic"
 )
 )
 *20 (PortIoIn
@@ -980,8 +976,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3200,39000,4000"
-st "mode_fct : unsigned(2 DOWNTO 0)
-"
+st "mode_fct : unsigned(2 DOWNTO 0)"
 )
 )
 *22 (PortIoIn
@@ -1044,8 +1039,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4000,34000,4800"
-st "reset    : std_ulogic
-"
+st "reset    : std_ulogic"
 )
 )
 *24 (SaComponent
@@ -1260,8 +1254,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11600,37500,12400"
-st "SIGNAL out1     : std_uLogic
-"
+st "SIGNAL out1     : std_uLogic"
 )
 )
 *32 (Net
@@ -1279,8 +1272,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,13200,37500,14000"
-st "SIGNAL pwmValue : std_ulogic
-"
+st "SIGNAL pwmValue : std_ulogic"
 )
 )
 *33 (SaComponent
@@ -1929,8 +1921,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10000,37500,10800"
-st "SIGNAL logic_1  : std_uLogic
-"
+st "SIGNAL logic_1  : std_uLogic"
 )
 )
 *54 (Net
@@ -1947,8 +1938,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9200,37500,10000"
-st "SIGNAL logic_0  : std_uLogic
-"
+st "SIGNAL logic_0  : std_uLogic"
 )
 )
 *55 (SaComponent
@@ -2237,8 +2227,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10800,37500,11600"
-st "SIGNAL muxOut   : std_ulogic
-"
+st "SIGNAL muxOut   : std_ulogic"
 )
 )
 *64 (SaComponent
@@ -2694,8 +2683,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,12400,37500,13200"
-st "SIGNAL out2     : std_uLogic
-"
+st "SIGNAL out2     : std_uLogic"
 )
 )
 *80 (PortIoIn
@@ -2756,8 +2744,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4800,34000,5600"
-st "testMode : std_uLogic
-"
+st "testMode : std_uLogic"
 )
 )
 *82 (SaComponent
@@ -4317,8 +4304,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,24,1539,864"
-viewArea "15300,-5500,138534,61428"
+windowSize "0,24,1537,864"
+viewArea "-11700,-9600,111346,57328"
 cachedDiagramExtent "0,0,121000,82000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -4342,7 +4329,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,0"
-lastUid 2062,0
+lastUid 2163,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

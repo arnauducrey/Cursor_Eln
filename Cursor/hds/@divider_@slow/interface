@@ -74,7 +74,6 @@ uid 1048,0
 )
 *15 (LogPort
 port (LogicalPort
-lang 2
 m 1
 decl (Decl
 n "enRamp"
@@ -179,25 +178,25 @@ uid 1049,0
 )
 *25 (MRCItem
 litem &15
-pos 1
+pos 4
 dimension 20
 uid 1051,0
 )
 *26 (MRCItem
 litem &16
-pos 2
+pos 1
 dimension 20
 uid 1053,0
 )
 *27 (MRCItem
 litem &17
-pos 3
+pos 2
 dimension 20
 uid 1055,0
 )
 *28 (MRCItem
 litem &18
-pos 4
+pos 3
 dimension 20
 uid 1057,0
 )
@@ -430,23 +429,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@slow\\interface.info"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@slow\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@slow\\interface.user"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@slow\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -466,15 +465,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@slow"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@slow"
 )
 (vvPair
 variable "d_logical"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Divider_Slow"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Divider_Slow"
 )
 (vvPair
 variable "date"
-value "10.01.2022"
+value "17.01.2022"
 )
 (vvPair
 variable "day"
@@ -486,7 +485,7 @@ value "lundi"
 )
 (vvPair
 variable "dd"
-value "10"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -510,11 +509,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "robin.carrupt"
+value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "10.01.2022"
+value "17.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -522,11 +521,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA20302"
+value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:14:33"
+value "16:16:47"
 )
 (vvPair
 variable "group"
@@ -534,7 +533,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA20302"
+value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "language"
@@ -566,11 +565,11 @@ value "janvier"
 )
 (vvPair
 variable "p"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@slow\\interface"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@divider_@slow\\interface"
 )
 (vvPair
 variable "p_logical"
-value "Y:\\robin.carrupt\\Electronique_numerique\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Divider_Slow\\interface"
+value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Divider_Slow\\interface"
 )
 (vvPair
 variable "package_name"
@@ -598,7 +597,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "14:14:33"
+value "16:16:47"
 )
 (vvPair
 variable "unit"
@@ -606,7 +605,7 @@ value "Divider_Slow"
 )
 (vvPair
 variable "user"
-value "robin.carrupt"
+value "robin"
 )
 (vvPair
 variable "version"
@@ -665,8 +664,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,61000,3200"
-st "clock    : IN     std_ulogic  ;
-"
+st "clock    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -712,8 +710,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,60000,6400"
-st "enRamp   : OUT    std_uLogic 
-"
+st "enRamp   : OUT    std_uLogic "
 )
 thePort (LogicalPort
 lang 2
@@ -759,8 +756,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,61000,4000"
-st "reset    : IN     std_ulogic  ;
-"
+st "reset    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -805,8 +801,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,61000,4800"
-st "restart  : IN     std_ulogic  ;
-"
+st "restart  : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -851,8 +846,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,61000,5600"
-st "testMode : IN     std_uLogic  ;
-"
+st "testMode : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1571,6 +1565,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1080,0
+lastUid 1103,0
 activeModelName "Symbol:CDM"
 )
