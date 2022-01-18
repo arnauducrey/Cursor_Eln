@@ -177,19 +177,19 @@ value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\motor_driv
 )
 (vvPair
 variable "date"
-value "17.01.2022"
+value "18.01.2022"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "18"
 )
 (vvPair
 variable "entity_name"
@@ -217,7 +217,7 @@ value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.01.2022"
+value "18.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -229,7 +229,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:18:14"
+value "08:55:50"
 )
 (vvPair
 variable "group"
@@ -301,7 +301,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:18:14"
+value "08:55:50"
 )
 (vvPair
 variable "unit"
@@ -4305,7 +4305,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1537,864"
-viewArea "-11700,-9600,111346,57328"
+viewArea "-6436,-3866,116610,63062"
 cachedDiagramExtent "0,0,121000,82000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -4329,7 +4329,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,0"
-lastUid 2163,0
+lastUid 2212,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

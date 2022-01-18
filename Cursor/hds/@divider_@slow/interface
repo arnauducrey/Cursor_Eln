@@ -473,19 +473,19 @@ value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Divider_Sl
 )
 (vvPair
 variable "date"
-value "17.01.2022"
+value "18.01.2022"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "18"
 )
 (vvPair
 variable "entity_name"
@@ -513,7 +513,7 @@ value "robin"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.01.2022"
+value "18.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -525,7 +525,7 @@ value "DESKTOP-93FHAQ3"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:16:47"
+value "09:22:42"
 )
 (vvPair
 variable "group"
@@ -597,7 +597,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "16:16:47"
+value "09:22:42"
 )
 (vvPair
 variable "unit"
@@ -943,7 +943,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,48300,49000"
+xt "36200,48000,45700,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1565,6 +1565,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1103,0
+lastUid 1195,0
 activeModelName "Symbol:CDM"
 )

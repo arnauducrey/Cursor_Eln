@@ -12,21 +12,35 @@ ARCHITECTURE test OF motor_driver_tester IS
 	constant clockFrequency: real := 66.0E6;
 	constant clockPeriod: time := 1.0/clockFrequency * 1 sec;
 	signal clock_int: std_uLogic := '0';	
+	signal opCode: string(1 to 16);
+	
 BEGIN
 	reset <= '1', '0' after 4*clockPeriod;
 
 	clock_int <= not clock_int after clockPeriod/2;
 	clock <= transport clock_int after 9*clockPeriod/10;
-	testMode <= '0';
+	testMode <= '1';
 	
 	mode_fct <=  "111" ,
-		"000" after 500 us;
-		--"001" after 1 ms,
-		--"010" after 1500 us,
-		--"111" after 2000 us,
-		--"100" after 2500 us,
-		--"101" after 3000 us,
-		--"110" after 3500 us,
-		--"111" after 4000 us;
+		"000" after 500 us,
+		"001" after 1 ms,
+		"010" after 1500 us,
+		"111" after 2000 us,
+		"100" after 2500 us,
+		"101" after 3000 us,
+		"110" after 3500 us,
+		"111" after 4000 us;
+		
+	opCode <=  
+		"Stop            " ,
+		"Accel D.        " after 500 us,
+		"Full Speed D.   " after 1 ms,
+		"Decel D.        " after 1500 us,
+		"Stop            " after 2000 us,
+		"Accel G.        " after 2500 us,
+		"Full Speed G.   " after 3000 us,
+		"Decel G.        " after 3500 us,
+		"Stop            " after 4000 us;
+		
 END ARCHITECTURE test;
 
