@@ -21,7 +21,7 @@ rst <= '1', '0' after 4*clockPeriod;
 --sensor1 <= '0';
 --BusBouton <= "0000";
 sensor2 <= '0',
-			'1' after 260 us;
+			'1' after 280 us;
 BusBouton <= "0000",
 			"1000" after 10 us,
 			 "0000" after 20 us,
@@ -31,12 +31,14 @@ BusBouton <= "0000",
 			 "0000" after 105 us,
 			 "1000" after 140 us,
 			 "0000" after 145 us,
-			 "0100" after 160 us,
+			 "0100" after 160 us,---go1
 			 "0000" after 165 us,
 			 "0010" after 200 us,
 			 "0000" after 205 us,
 			 "1000" after 240 us,
-			 "0000" after 250 us;
+			 "0000" after 245 us,
+			 "1000" after 255 us,
+			 "0000" after 260 us; --- test de l'apui d'un autre bouton pendant un déplacement
 				
 sensor1 <= 	'0',
 			'1' after 25 us,
@@ -44,44 +46,27 @@ sensor1 <= 	'0',
 			'1' after 150 us,
 			'0' after 155 us;
 			
---STOP_Acc_dec <= '0',
-				--'1' after 60 us,
-				--'0' after 65 us,
-				--'1' after 80 us,
-				--'0' after 90 us,
-				--'1' after 110 us,
-				--'0' after 115 us,
-				--'1' after 130 us,
-				--'0' after 135 us,
-				--'1' after 170 us,
-				--'0' after 175 us,
-				--'1' after 190 us,
-				--'0' after 195 us,
-				--'1' after 210 us,
-				--'0' after 215 us,
-				--'1' after 230 us,
-				--'0' after 235 us;
 
 position <= to_unsigned (0,16),
-			to_unsigned (2857, 16) after 60 us,
+			to_unsigned (100, 16) after 60 us,
 			to_unsigned (0,16) after 65 us,
-			to_unsigned (28572,16) after 70 us,
-			to_unsigned (2857, 16) after 80 us,
+			to_unsigned (700,16) after 70 us,
+			to_unsigned (100, 16) after 80 us,
 			to_unsigned (0,16) after 90 us,
-			to_unsigned (2857, 16) after 110 us,
+			to_unsigned (100, 16) after 110 us,
 			to_unsigned (0,16) after 115 us,
-			to_unsigned (2857,16) after 120 us,
-			to_unsigned (2857, 16) after 130 us,
-			to_unsigned (0,16) after 135 us,
-			to_unsigned (2857, 16) after 170 us,
+			to_unsigned (200,16) after 120 us,
+			to_unsigned (100, 16) after 130 us,
+			to_unsigned (0,16) after 135 us,-------- reset
+			to_unsigned (100, 16) after 170 us,
 			to_unsigned (0,16) after 175 us,
-			to_unsigned(17143,16) after 180 us,
-			to_unsigned (2857, 16) after 190 us,
+			to_unsigned(300,16) after 180 us,
+			to_unsigned (100, 16) after 190 us,
 			to_unsigned (0,16) after 195 us,
-			to_unsigned (2857, 16) after 210 us,
+			to_unsigned (100, 16) after 210 us,
 			to_unsigned (0,16) after 215 us,
-			to_unsigned(2857,16) after 220 us,
-			to_unsigned (2857, 16) after 230 us,
+			to_unsigned(200,16) after 220 us,
+			to_unsigned (100, 16) after 230 us,
 			to_unsigned (0,16) after 235 us;
 
 

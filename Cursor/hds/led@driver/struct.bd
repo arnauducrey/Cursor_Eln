@@ -132,19 +132,19 @@ value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor\\hd
 )
 (vvPair
 variable "date"
-value "11.01.2022"
+value "13.01.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "11"
+value "13"
 )
 (vvPair
 variable "entity_name"
@@ -172,7 +172,7 @@ value "Arnaud"
 )
 (vvPair
 variable "graphical_source_date"
-value "11.01.2022"
+value "13.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -184,7 +184,7 @@ value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:21:58"
+value "17:17:09"
 )
 (vvPair
 variable "group"
@@ -256,7 +256,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "09:21:58"
+value "17:17:09"
 )
 (vvPair
 variable "unit"
@@ -2944,7 +2944,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1369,864"
-viewArea "5200,-9200,105608,50992"
+viewArea "5200,9544,105608,72200"
 cachedDiagramExtent "0,-5000,124000,89000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -2968,7 +2968,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,0"
-lastUid 948,0
+lastUid 977,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

@@ -1,0 +1,28 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate /fsmmaster_tb/U_0/current_state
+add wave -noupdate -radix binary /fsmmaster_tb/Mode_fct
+add wave -noupdate -divider {Entery signals}
+add wave -noupdate -radix hexadecimal /fsmmaster_tb/position
+add wave -noupdate /fsmmaster_tb/sensor1
+add wave -noupdate /fsmmaster_tb/sensor2
+add wave -noupdate /fsmmaster_tb/reset_pos
+add wave -noupdate -radix binary -childformat {{/fsmmaster_tb/BusBouton(3) -radix binary} {/fsmmaster_tb/BusBouton(2) -radix binary} {/fsmmaster_tb/BusBouton(1) -radix binary} {/fsmmaster_tb/BusBouton(0) -radix binary}} -expand -subitemconfig {/fsmmaster_tb/BusBouton(3) {-height 15 -radix binary} /fsmmaster_tb/BusBouton(2) {-height 15 -radix binary} /fsmmaster_tb/BusBouton(1) {-height 15 -radix binary} /fsmmaster_tb/BusBouton(0) {-height 15 -radix binary}} /fsmmaster_tb/BusBouton
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 2} {0 ps} 0} {{Cursor 3} {295220441 ps} 0}
+quietly wave cursor active 2
+configure wave -namecolwidth 275
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits us
+update
+WaveRestoreZoom {0 ps} {295220441 ps}

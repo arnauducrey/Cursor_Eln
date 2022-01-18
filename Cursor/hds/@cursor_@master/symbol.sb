@@ -490,23 +490,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@cursor_@master\\symbol.sb.info"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@cursor_@master\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@cursor_@master\\symbol.sb.user"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@cursor_@master\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -526,27 +526,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@cursor_@master"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@cursor_@master"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Cursor_Master"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Cursor_Master"
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "17.01.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -570,11 +570,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "robin"
+value "Arnaud"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "17.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -582,11 +582,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "DESKTOP-93FHAQ3"
+value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:38:50"
+value "16:16:52"
 )
 (vvPair
 variable "group"
@@ -594,7 +594,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "DESKTOP-93FHAQ3"
+value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "language"
@@ -610,7 +610,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -618,19 +618,19 @@ value "Cursor_Master"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@cursor_@master\\symbol.sb"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\@cursor_@master\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\robin\\Desktop\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Cursor_Master\\symbol.sb"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor\\hds\\Cursor_Master\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -658,7 +658,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "08:38:50"
+value "16:16:52"
 )
 (vvPair
 variable "unit"
@@ -666,7 +666,7 @@ value "Cursor_Master"
 )
 (vvPair
 variable "user"
-value "robin"
+value "Arnaud"
 )
 (vvPair
 variable "version"
@@ -678,11 +678,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -702,7 +702,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,22625,15000,23375"
+xt "16250,33625,17000,34375"
 )
 tg (CPTG
 uid 196,0
@@ -713,9 +713,9 @@ uid 197,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,22300,23600,23700"
+xt "18000,33300,25600,34700"
 st "BusBouton"
-blo "16000,23500"
+blo "18000,34500"
 tm "CptPortNameMgr"
 )
 )
@@ -748,7 +748,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "33000,20625,33750,21375"
+xt "35000,31625,35750,32375"
 )
 tg (CPTG
 uid 201,0
@@ -759,10 +759,10 @@ uid 202,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "29600,20300,32000,21700"
+xt "31600,31300,34000,32700"
 st "clk"
 ju 2
-blo "32000,21500"
+blo "34000,32500"
 tm "CptPortNameMgr"
 )
 )
@@ -794,7 +794,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "33000,13625,33750,14375"
+xt "35000,24625,35750,25375"
 )
 tg (CPTG
 uid 206,0
@@ -805,10 +805,10 @@ uid 207,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "25500,13300,32000,14700"
+xt "27500,24300,34000,25700"
 st "Mode_fct"
 ju 2
-blo "32000,14500"
+blo "34000,25500"
 tm "CptPortNameMgr"
 )
 )
@@ -842,7 +842,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,7625,15000,8375"
+xt "16250,18625,17000,19375"
 )
 tg (CPTG
 uid 211,0
@@ -853,9 +853,9 @@ uid 212,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,7300,21800,8700"
+xt "18000,18300,23800,19700"
 st "position"
-blo "16000,8500"
+blo "18000,19500"
 tm "CptPortNameMgr"
 )
 )
@@ -887,7 +887,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "33000,8625,33750,9375"
+xt "35000,19625,35750,20375"
 )
 tg (CPTG
 uid 216,0
@@ -898,10 +898,10 @@ uid 217,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "24800,8300,32000,9700"
+xt "26800,19300,34000,20700"
 st "reset_pos"
 ju 2
-blo "32000,9500"
+blo "34000,20500"
 tm "CptPortNameMgr"
 )
 )
@@ -934,7 +934,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "33000,23625,33750,24375"
+xt "35000,34625,35750,35375"
 )
 tg (CPTG
 uid 221,0
@@ -945,10 +945,10 @@ uid 222,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "29500,23300,32000,24700"
+xt "31500,34300,34000,35700"
 st "rst"
 ju 2
-blo "32000,24500"
+blo "34000,35500"
 tm "CptPortNameMgr"
 )
 )
@@ -980,7 +980,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,12625,15000,13375"
+xt "16250,23625,17000,24375"
 )
 tg (CPTG
 uid 226,0
@@ -991,9 +991,9 @@ uid 227,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,12300,21900,13700"
+xt "18000,23300,23900,24700"
 st "sensor1"
-blo "16000,13500"
+blo "18000,24500"
 tm "CptPortNameMgr"
 )
 )
@@ -1024,7 +1024,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,17625,15000,18375"
+xt "16250,28625,17000,29375"
 )
 tg (CPTG
 uid 231,0
@@ -1035,9 +1035,9 @@ uid 232,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "16000,17300,21900,18700"
+xt "18000,28300,23900,29700"
 st "sensor2"
-blo "16000,18500"
+blo "18000,29500"
 tm "CptPortNameMgr"
 )
 )
@@ -1067,7 +1067,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,5000,33000,27000"
+xt "17000,16000,35000,38000"
 )
 oxt "15000,6000,23000,16000"
 biTextGroup (BiTextGroup
@@ -1079,18 +1079,18 @@ uid 11,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "16850,27800,20550,29000"
+xt "18850,38800,22550,40000"
 st "Cursor"
-blo "16850,28800"
+blo "18850,39800"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "16850,29000,25150,30200"
+xt "18850,40000,27150,41200"
 st "Cursor_Master"
-blo "16850,30000"
+blo "18850,41000"
 )
 )
 gi *76 (GenericInterface
@@ -1103,7 +1103,7 @@ uid 15,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-15500,7000,-4000,7800"
+xt "-13500,18000,-2000,18800"
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -1496,8 +1496,8 @@ tm "PackageList"
 ]
 )
 windowSize "0,0,1385,864"
-viewArea "-19213,-7077,64398,46111"
-cachedDiagramExtent "-15500,0,73000,49000"
+viewArea "-19200,3558,65334,3558"
+cachedDiagramExtent "-13500,0,73000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-16000,0"
 defaultCommentText (CommentText
@@ -1769,7 +1769,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 562,0
+lastUid 585,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

@@ -49,23 +49,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hdl"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\@f@s@m@master_tb\\struct.bd.info"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\@f@s@m@master_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\@f@s@m@master_tb\\struct.bd.user"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\@f@s@m@master_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -85,15 +85,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\@f@s@m@master_tb"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\@f@s@m@master_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\FSMMaster_tb"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\FSMMaster_tb"
 )
 (vvPair
 variable "date"
-value "13.12.2021"
+value "17.01.2022"
 )
 (vvPair
 variable "day"
@@ -105,7 +105,7 @@ value "lundi"
 )
 (vvPair
 variable "dd"
-value "13"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -133,7 +133,7 @@ value "Arnaud"
 )
 (vvPair
 variable "graphical_source_date"
-value "13.12.2021"
+value "17.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -145,7 +145,7 @@ value "DESKTOP-4F3HILT"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:38:40"
+value "21:16:42"
 )
 (vvPair
 variable "group"
@@ -169,7 +169,7 @@ value "$SCRATCH_DIR/Cursor_test/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -177,19 +177,19 @@ value "FSMMaster_tb"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\@f@s@m@master_tb\\struct.bd"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\@f@s@m@master_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln-1\\Prefs\\..\\Cursor_test\\hds\\FSMMaster_tb\\struct.bd"
+value "C:\\Users\\Arnaud\\Desktop\\Cursor_Eln\\Cursor_Eln\\Prefs\\..\\Cursor_test\\hds\\FSMMaster_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -217,7 +217,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:38:40"
+value "21:16:42"
 )
 (vvPair
 variable "unit"
@@ -237,11 +237,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -270,7 +270,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "46200,58000,56200,59000"
+xt "46200,58000,56400,59000"
 st "
 by %user on %dd %month %year
 "
@@ -1607,8 +1607,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1369,888"
-viewArea "-2000,3768,90421,65328"
+windowSize "2728,-8,4664,1048"
+viewArea "-2187,-4026,136161,68874"
 cachedDiagramExtent "0,0,83000,59000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1632,7 +1632,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 1112,0
+lastUid 1151,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
